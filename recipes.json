@@ -1,0 +1,7219 @@
+[
+    {
+        "Name": "AI Expansion Server",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Quantum Encoder",
+        "Ingredients": [
+            {
+                "Item": "Magnetic Field Generator",
+                "Per-minute": 4.0
+            },
+            {
+                "Item": "Neural-Quantum Processor",
+                "Per-minute": 4.0
+            },
+            {
+                "Item": "Superposition Oscillator",
+                "Per-minute": 4.0
+            },
+            {
+                "Item": "Excited Photonic Matter",
+                "Per-minute": 4.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "AI Expansion Server",
+                "Per-minute": 4.0
+            },
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 4.0
+            }
+        ]
+    },
+    {
+        "Name": "AI Limiter",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Quickwire",
+                "Per-minute": 25.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "AI Limiter",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Actual Snow",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Gift",
+                "Per-minute": 25.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Actual Snow",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Adaptive Control Unit",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Automated Wiring",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Heavy Modular Frame",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Computer",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Adaptive Control Unit",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Alclad Aluminum Sheet",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alclad Aluminum Sheet",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Alien DNA Capsule",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Alien Protein",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alien DNA Capsule",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Alien Power Matrix",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Quantum Encoder",
+        "Ingredients": [
+            {
+                "Item": "SAM Fluctuator",
+                "Per-minute": 12.5
+            },
+            {
+                "Item": "Power Shard",
+                "Per-minute": 12.5
+            },
+            {
+                "Item": "Superposition Oscillator",
+                "Per-minute": 12.5
+            },
+            {
+                "Item": "Excited Photonic Matter",
+                "Per-minute": 12.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alien Power Matrix",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 2.5
+            }
+        ]
+    },
+    {
+        "Name": "Alumina Solution",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Bauxite",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alumina Solution",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Silica",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Aluminum Casing",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 90.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Aluminum Ingot",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Scrap",
+                "Per-minute": 90.0
+            },
+            {
+                "Item": "Silica",
+                "Per-minute": 90.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Aluminum Scrap",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Alumina Solution",
+                "Per-minute": 240.0
+            },
+            {
+                "Item": "Coal",
+                "Per-minute": 240.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Aluminum Scrap",
+                "Per-minute": 360.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 360.0
+            }
+        ]
+    },
+    {
+        "Name": "Assembly Director System",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Adaptive Control Unit",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Supercomputer",
+                "Per-minute": 1.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Assembly Director System",
+                "Per-minute": 0.75
+            }
+        ]
+    },
+    {
+        "Name": "Automated Wiring",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Stator",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Cable",
+                "Per-minute": 2.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Automated Wiring",
+                "Per-minute": 2.5
+            }
+        ]
+    },
+    {
+        "Name": "Ballistic Warp Drive",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Thermal Propulsion Rocket",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Singularity Cell",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Superposition Oscillator",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Dark Matter Crystal",
+                "Per-minute": 1.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ballistic Warp Drive",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Battery",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Alumina Solution",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Battery",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Bauxite (Caterium)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Caterium Ore",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Bauxite",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Bauxite (Copper)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Bauxite",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Biochemical Sculptor",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Assembly Director System",
+                "Per-minute": 0.5
+            },
+            {
+                "Item": "Ficsite Trigon",
+                "Per-minute": 0.5
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 0.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Biochemical Sculptor",
+                "Per-minute": 2.0
+            }
+        ]
+    },
+    {
+        "Name": "Biomass (Alien Protein)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Alien Protein",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Biomass",
+                "Per-minute": 1500.0
+            }
+        ]
+    },
+    {
+        "Name": "Biomass (Leaves)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Leaves",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Biomass",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Biomass (Mycelia)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Mycelia",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Biomass",
+                "Per-minute": 150.0
+            }
+        ]
+    },
+    {
+        "Name": "Biomass (Wood)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Wood",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Biomass",
+                "Per-minute": 300.0
+            }
+        ]
+    },
+    {
+        "Name": "Black Powder",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Coal",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Sulfur",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Black Powder",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Blade Runners",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Silica",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Rotor",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Blade Runners",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Blue FICSMAS Ornament",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Smelter",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Gift",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Blue FICSMAS Ornament",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Cable",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Wire",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Cable",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Candy Cane",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Gift",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Candy Cane",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Candy Cane Basher",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Xeno-Zapper",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Candy Cane",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "FICSMAS Gift",
+                "Per-minute": 1.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Candy Cane Basher",
+                "Per-minute": 0.75
+            }
+        ]
+    },
+    {
+        "Name": "Caterium Ingot",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Smelter",
+        "Ingredients": [
+            {
+                "Item": "Caterium Ore",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 15.0
+            }
+        ]
+    },
+    {
+        "Name": "Caterium Ore (Copper)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Caterium Ore",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Caterium Ore (Quartz)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Caterium Ore",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Chainsaw",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Cable",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Chainsaw",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Circuit Board",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Plastic",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 7.5
+            }
+        ]
+    },
+    {
+        "Name": "Cluster Nobelisk",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Nobelisk",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Smokeless Powder",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Cluster Nobelisk",
+                "Per-minute": 2.5
+            }
+        ]
+    },
+    {
+        "Name": "Coal (Iron)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Coal",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Coal (Limestone)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Limestone",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Coal",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Computer",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Cable",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Plastic",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Computer",
+                "Per-minute": 2.5
+            }
+        ]
+    },
+    {
+        "Name": "Concrete",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Limestone",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Concrete",
+                "Per-minute": 15.0
+            }
+        ]
+    },
+    {
+        "Name": "Cooling System",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Heat Sink",
+                "Per-minute": 12.0
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 12.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 12.0
+            },
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": 12.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Cooling System",
+                "Per-minute": 6.0
+            }
+        ]
+    },
+    {
+        "Name": "Copper FICSMAS Ornament",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Red FICSMAS Ornament",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper FICSMAS Ornament",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Copper Ingot",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Smelter",
+        "Ingredients": [
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Copper Ore (Quartz)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Copper Ore (Sulfur)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Sulfur",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Copper Powder",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 300.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Powder",
+                "Per-minute": 50.0
+            }
+        ]
+    },
+    {
+        "Name": "Copper Sheet",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Crystal Oscillator",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 18.0
+            },
+            {
+                "Item": "Cable",
+                "Per-minute": 18.0
+            },
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 18.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Crystal Oscillator",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Dark Matter Crystal",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Diamonds",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Dark Matter Crystal",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Dark Matter Residue",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 100.0
+            }
+        ]
+    },
+    {
+        "Name": "Diamonds",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Coal",
+                "Per-minute": 600.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Diamonds",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Electromagnetic Control Rod",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Stator",
+                "Per-minute": 6.0
+            },
+            {
+                "Item": "AI Limiter",
+                "Per-minute": 6.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 4.0
+            }
+        ]
+    },
+    {
+        "Name": "Empty Canister",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Plastic",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Empty Fluid Tank",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Empty Fluid Tank",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Encased Industrial Beam",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Steel Beam",
+                "Per-minute": 18.0
+            },
+            {
+                "Item": "Concrete",
+                "Per-minute": 18.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Encased Industrial Beam",
+                "Per-minute": 6.0
+            }
+        ]
+    },
+    {
+        "Name": "Encased Plutonium Cell",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Plutonium Pellet",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Concrete",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Encased Plutonium Cell",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Encased Uranium Cell",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Uranium",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Concrete",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Encased Uranium Cell",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 25.0
+            }
+        ]
+    },
+    {
+        "Name": "Excited Photonic Matter",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Excited Photonic Matter",
+                "Per-minute": 200.0
+            }
+        ]
+    },
+    {
+        "Name": "Explosive Rebar",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Iron Rebar",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Smokeless Powder",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Explosive Rebar",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "FICSMAS Bow",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Gift",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "FICSMAS Bow",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "FICSMAS Decoration",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Tree Branch",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "FICSMAS Ornament Bundle",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "FICSMAS Decoration",
+                "Per-minute": 2.0
+            }
+        ]
+    },
+    {
+        "Name": "FICSMAS Ornament Bundle",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Copper FICSMAS Ornament",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Iron FICSMAS Ornament",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "FICSMAS Ornament Bundle",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "FICSMAS Tree Branch",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Gift",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "FICSMAS Tree Branch",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "FICSMAS Wonder Star",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Decoration",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Candy Cane",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "FICSMAS Wonder Star",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Fabric",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Mycelia",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Biomass",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Fabric",
+                "Per-minute": 15.0
+            }
+        ]
+    },
+    {
+        "Name": "Factory Cart\u2122",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 12.0
+            },
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 12.0
+            },
+            {
+                "Item": "Rotor",
+                "Per-minute": 12.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Factory Cart\u2122",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Fancy Fireworks",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Tree Branch",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "FICSMAS Bow",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Fancy Fireworks",
+                "Per-minute": 2.5
+            }
+        ]
+    },
+    {
+        "Name": "Ficsite Ingot (Aluminum)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ficsite Ingot",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Ficsite Ingot (Caterium)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ficsite Ingot",
+                "Per-minute": 15.0
+            }
+        ]
+    },
+    {
+        "Name": "Ficsite Ingot (Iron)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ficsite Ingot",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Ficsite Trigon",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Ficsite Ingot",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ficsite Trigon",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Ficsonium",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Plutonium Waste",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Singularity Cell",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ficsonium",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Ficsonium Fuel Rod",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Quantum Encoder",
+        "Ingredients": [
+            {
+                "Item": "Ficsonium",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Ficsite Trigon",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Excited Photonic Matter",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ficsonium Fuel Rod",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 2.5
+            }
+        ]
+    },
+    {
+        "Name": "Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Fuel",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Polymer Resin",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Fused Modular Frame",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Heavy Modular Frame",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": 1.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Fused Modular Frame",
+                "Per-minute": 1.5
+            }
+        ]
+    },
+    {
+        "Name": "Gas Filter",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Fabric",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Coal",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Gas Filter",
+                "Per-minute": 7.5
+            }
+        ]
+    },
+    {
+        "Name": "Gas Mask",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Fabric",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Gas Mask",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Gas Nobelisk",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Nobelisk",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Biomass",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Gas Nobelisk",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Golden Factory Cart\u2122",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Rotor",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Golden Factory Cart\u2122",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Hatcher Protein",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Hatcher Remains",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alien Protein",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Hazmat Suit",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Rubber",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Plastic",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Alclad Aluminum Sheet",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Fabric",
+                "Per-minute": 25.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Hazmat Suit",
+                "Per-minute": 0.5
+            }
+        ]
+    },
+    {
+        "Name": "Heat Sink",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Alclad Aluminum Sheet",
+                "Per-minute": 37.5
+            },
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 37.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Heat Sink",
+                "Per-minute": 7.5
+            }
+        ]
+    },
+    {
+        "Name": "Heavy Modular Frame",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Encased Industrial Beam",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Heavy Modular Frame",
+                "Per-minute": 2.0
+            }
+        ]
+    },
+    {
+        "Name": "High-Speed Connector",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Quickwire",
+                "Per-minute": 210.0
+            },
+            {
+                "Item": "Cable",
+                "Per-minute": 210.0
+            },
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 210.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "High-Speed Connector",
+                "Per-minute": 3.75
+            }
+        ]
+    },
+    {
+        "Name": "Hog Protein",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Hog Remains",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alien Protein",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Homing Rifle Ammo",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Rifle Ammo",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "High-Speed Connector",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Homing Rifle Ammo",
+                "Per-minute": 25.0
+            }
+        ]
+    },
+    {
+        "Name": "Hoverpack",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Motor",
+                "Per-minute": 4.0
+            },
+            {
+                "Item": "Heavy Modular Frame",
+                "Per-minute": 4.0
+            },
+            {
+                "Item": "Computer",
+                "Per-minute": 4.0
+            },
+            {
+                "Item": "Alclad Aluminum Sheet",
+                "Per-minute": 4.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Hoverpack",
+                "Per-minute": 0.5
+            }
+        ]
+    },
+    {
+        "Name": "Iodine-Infused Filter",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Gas Filter",
+                "Per-minute": 3.75
+            },
+            {
+                "Item": "Quickwire",
+                "Per-minute": 3.75
+            },
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 3.75
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iodine-Infused Filter",
+                "Per-minute": 3.75
+            }
+        ]
+    },
+    {
+        "Name": "Ionized Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Rocket Fuel",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Power Shard",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ionized Fuel",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Compacted Coal",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Iron FICSMAS Ornament",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Blue FICSMAS Ornament",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron FICSMAS Ornament",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Iron Ingot",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Smelter",
+        "Ingredients": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Iron Ore (Limestone)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Limestone",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Iron Plate",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Iron Rebar",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Rebar",
+                "Per-minute": 15.0
+            }
+        ]
+    },
+    {
+        "Name": "Iron Rod",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 15.0
+            }
+        ]
+    },
+    {
+        "Name": "Jetpack",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Motor",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Jetpack",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Limestone (Sulfur)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Sulfur",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Limestone",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Liquid Biofuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Solid Biofuel",
+                "Per-minute": 90.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 90.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Liquid Biofuel",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Magnetic Field Generator",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Versatile Framework",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 2.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Magnetic Field Generator",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Modular Engine",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Motor",
+                "Per-minute": 2.0
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 2.0
+            },
+            {
+                "Item": "Smart Plating",
+                "Per-minute": 2.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Modular Engine",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Modular Frame",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 3.0
+            },
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 3.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 2.0
+            }
+        ]
+    },
+    {
+        "Name": "Motor",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Rotor",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Stator",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Motor",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Neural-Quantum Processor",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Quantum Encoder",
+        "Ingredients": [
+            {
+                "Item": "Time Crystal",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Supercomputer",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Ficsite Trigon",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Excited Photonic Matter",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Neural-Quantum Processor",
+                "Per-minute": 3.0
+            },
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Nitric Acid",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Nitric Acid",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Nitrogen Gas (Bauxite)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Bauxite",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Nitrogen Gas (Caterium)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Caterium Ore",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Nobelisk",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Black Powder",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Nobelisk",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Nobelisk Detonator",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Object Scanner",
+                "Per-minute": 0.75
+            },
+            {
+                "Item": "Steel Beam",
+                "Per-minute": 0.75
+            },
+            {
+                "Item": "Cable",
+                "Per-minute": 0.75
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Nobelisk Detonator",
+                "Per-minute": 0.75
+            }
+        ]
+    },
+    {
+        "Name": "Non-Fissile Uranium",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Uranium Waste",
+                "Per-minute": 37.5
+            },
+            {
+                "Item": "Silica",
+                "Per-minute": 37.5
+            },
+            {
+                "Item": "Nitric Acid",
+                "Per-minute": 37.5
+            },
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 37.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Non-Fissile Uranium",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 50.0
+            }
+        ]
+    },
+    {
+        "Name": "Nuclear Pasta",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Copper Powder",
+                "Per-minute": 100.0
+            },
+            {
+                "Item": "Pressure Conversion Cube",
+                "Per-minute": 100.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Nuclear Pasta",
+                "Per-minute": 0.5
+            }
+        ]
+    },
+    {
+        "Name": "Nuke Nobelisk",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Nobelisk",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Encased Uranium Cell",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Smokeless Powder",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "AI Limiter",
+                "Per-minute": 2.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Nuke Nobelisk",
+                "Per-minute": 0.5
+            }
+        ]
+    },
+    {
+        "Name": "Nutritional Inhaler",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Bacon Agaric",
+                "Per-minute": 3.0
+            },
+            {
+                "Item": "Paleberry",
+                "Per-minute": 3.0
+            },
+            {
+                "Item": "Beryl Nut",
+                "Per-minute": 3.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Medicinal Inhaler",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Object Scanner",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 6.0
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 6.0
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 6.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Object Scanner",
+                "Per-minute": 1.5
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Alumina Solution",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Alumina Solution",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Alumina Solution",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Fuel",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Fuel",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Heavy Oil Residue",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Heavy Oil Residue",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Ionized Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Ionized Fuel",
+                "Per-minute": 80.0
+            },
+            {
+                "Item": "Empty Fluid Tank",
+                "Per-minute": 80.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Ionized Fuel",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Liquid Biofuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Liquid Biofuel",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Liquid Biofuel",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Nitric Acid",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Nitric Acid",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Empty Fluid Tank",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Nitric Acid",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Nitrogen Gas",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": 240.0
+            },
+            {
+                "Item": "Empty Fluid Tank",
+                "Per-minute": 240.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Nitrogen Gas",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Oil",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Oil",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Rocket Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Rocket Fuel",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Empty Fluid Tank",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Rocket Fuel",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Sulfuric Acid",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Sulfuric Acid",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Turbofuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Turbofuel",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Turbofuel",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Packaged Water",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Water",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Water",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Parachute",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Fabric",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Cable",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Parachute",
+                "Per-minute": 1.5
+            }
+        ]
+    },
+    {
+        "Name": "Petroleum Coke",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Petroleum Coke",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Plastic",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Plastic",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Plutonium Fuel Rod",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Encased Plutonium Cell",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Steel Beam",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Heat Sink",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Plutonium Fuel Rod",
+                "Per-minute": 0.25
+            }
+        ]
+    },
+    {
+        "Name": "Plutonium Fuel Rod (burning)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Nuclear Power Plant",
+        "Ingredients": [
+            {
+                "Item": "Plutonium Fuel Rod",
+                "Per-minute": 0.1
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 0.1
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Plutonium Waste",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Plutonium Pellet",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Non-Fissile Uranium",
+                "Per-minute": 100.0
+            },
+            {
+                "Item": "Uranium Waste",
+                "Per-minute": 100.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Plutonium Pellet",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Portable Miner",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 3.0
+            },
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 3.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Portable Miner",
+                "Per-minute": 1.5
+            }
+        ]
+    },
+    {
+        "Name": "Power Shard (1)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Blue Power Slug",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Power Shard",
+                "Per-minute": 7.5
+            }
+        ]
+    },
+    {
+        "Name": "Power Shard (2)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Yellow Power Slug",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Power Shard",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Power Shard (5)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Purple Power Slug",
+                "Per-minute": 2.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Power Shard",
+                "Per-minute": 12.5
+            }
+        ]
+    },
+    {
+        "Name": "Pressure Conversion Cube",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Fused Modular Frame",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Radio Control Unit",
+                "Per-minute": 1.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Pressure Conversion Cube",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Protein Inhaler",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Alien Protein",
+                "Per-minute": 3.0
+            },
+            {
+                "Item": "Beryl Nut",
+                "Per-minute": 3.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Medicinal Inhaler",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Pulse Nobelisk",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Nobelisk",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Crystal Oscillator",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Pulse Nobelisk",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Quartz Crystal",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 37.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 22.5
+            }
+        ]
+    },
+    {
+        "Name": "Quickwire",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 12.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Quickwire",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Radio Control Unit",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Crystal Oscillator",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Computer",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Radio Control Unit",
+                "Per-minute": 2.5
+            }
+        ]
+    },
+    {
+        "Name": "Raw Quartz (Bauxite)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Bauxite",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Raw Quartz (Coal)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Coal",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Reanimated SAM",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "SAM",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Rebar Gun",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 6.0
+            },
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 6.0
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 6.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rebar Gun",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Red FICSMAS Ornament",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Smelter",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Gift",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Red FICSMAS Ornament",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Reinforced Iron Plate",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Residual Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Fuel",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Residual Plastic",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Polymer Resin",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Plastic",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Residual Rubber",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Polymer Resin",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rubber",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Rifle",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Motor",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 1.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rifle",
+                "Per-minute": 0.5
+            }
+        ]
+    },
+    {
+        "Name": "Rifle Ammo",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Smokeless Powder",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rifle Ammo",
+                "Per-minute": 75.0
+            }
+        ]
+    },
+    {
+        "Name": "Rocket Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Turbofuel",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Nitric Acid",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rocket Fuel",
+                "Per-minute": 100.0
+            },
+            {
+                "Item": "Compacted Coal",
+                "Per-minute": 100.0
+            }
+        ]
+    },
+    {
+        "Name": "Rotor",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rotor",
+                "Per-minute": 4.0
+            }
+        ]
+    },
+    {
+        "Name": "Rubber",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rubber",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "SAM Fluctuator",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "SAM Fluctuator",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Screw",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Screw",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Shatter Rebar",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Iron Rebar",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Shatter Rebar",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Silica",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 22.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Silica",
+                "Per-minute": 37.5
+            }
+        ]
+    },
+    {
+        "Name": "Singularity Cell",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Nuclear Pasta",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Dark Matter Crystal",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 1.0
+            },
+            {
+                "Item": "Concrete",
+                "Per-minute": 1.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Singularity Cell",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Smart Plating",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 2.0
+            },
+            {
+                "Item": "Rotor",
+                "Per-minute": 2.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Smart Plating",
+                "Per-minute": 2.0
+            }
+        ]
+    },
+    {
+        "Name": "Smokeless Powder",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Black Powder",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Smokeless Powder",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Snowball",
+        "Alternate": false,
+        "FICSMAS": true,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Actual Snow",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Snowball",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Solid Biofuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Biomass",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Solid Biofuel",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Sparkly Fireworks",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Tree Branch",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Actual Snow",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Sparkly Fireworks",
+                "Per-minute": 2.5
+            }
+        ]
+    },
+    {
+        "Name": "Spitter Protein",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Spitter Remains",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alien Protein",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Stator",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Stator",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Steel Beam",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Beam",
+                "Per-minute": 15.0
+            }
+        ]
+    },
+    {
+        "Name": "Steel Ingot",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Coal",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 45.0
+            }
+        ]
+    },
+    {
+        "Name": "Steel Pipe",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Stinger Protein",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Stinger Remains",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alien Protein",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Stun Rebar",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Iron Rebar",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Quickwire",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Stun Rebar",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Sulfur (Coal)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Coal",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Sulfur",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Sulfur (Iron)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Sulfur",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Sulfuric Acid",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Sulfur",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 50.0
+            }
+        ]
+    },
+    {
+        "Name": "Supercomputer",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Computer",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "AI Limiter",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "High-Speed Connector",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Plastic",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Supercomputer",
+                "Per-minute": 1.875
+            }
+        ]
+    },
+    {
+        "Name": "Superposition Oscillator",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Quantum Encoder",
+        "Ingredients": [
+            {
+                "Item": "Dark Matter Crystal",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Crystal Oscillator",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Alclad Aluminum Sheet",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Excited Photonic Matter",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Superposition Oscillator",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Sweet Fireworks",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "FICSMAS Tree Branch",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Candy Cane",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Sweet Fireworks",
+                "Per-minute": 2.5
+            }
+        ]
+    },
+    {
+        "Name": "Synthetic Power Shard",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Quantum Encoder",
+        "Ingredients": [
+            {
+                "Item": "Time Crystal",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Dark Matter Crystal",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Excited Photonic Matter",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Power Shard",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Therapeutic Inhaler",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Mycelia",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Alien Protein",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Bacon Agaric",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Medicinal Inhaler",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Thermal Propulsion Rocket",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Modular Engine",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Turbo Motor",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Cooling System",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Fused Modular Frame",
+                "Per-minute": 2.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Thermal Propulsion Rocket",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Time Crystal",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Diamonds",
+                "Per-minute": 12.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Time Crystal",
+                "Per-minute": 6.0
+            }
+        ]
+    },
+    {
+        "Name": "Turbo Motor",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Cooling System",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Radio Control Unit",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Motor",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Turbo Motor",
+                "Per-minute": 1.875
+            }
+        ]
+    },
+    {
+        "Name": "Turbo Rifle Ammo",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Rifle Ammo",
+                "Per-minute": 125.0
+            },
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 125.0
+            },
+            {
+                "Item": "Packaged Turbofuel",
+                "Per-minute": 125.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Turbo Rifle Ammo",
+                "Per-minute": 250.0
+            }
+        ]
+    },
+    {
+        "Name": "Turbo Rifle Ammo",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Rifle Ammo",
+                "Per-minute": 125.0
+            },
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 125.0
+            },
+            {
+                "Item": "Turbofuel",
+                "Per-minute": 125.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Turbo Rifle Ammo",
+                "Per-minute": 250.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Alumina Solution",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Alumina Solution",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alumina Solution",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Fuel",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Fuel",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Heavy Oil Residue",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Heavy Oil Residue",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Ionized Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Ionized Fuel",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ionized Fuel",
+                "Per-minute": 80.0
+            },
+            {
+                "Item": "Empty Fluid Tank",
+                "Per-minute": 80.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Liquid Biofuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Liquid Biofuel",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Liquid Biofuel",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Nitric Acid",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Nitric Acid",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Nitric Acid",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Empty Fluid Tank",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Nitrogen Gas",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Nitrogen Gas",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": 240.0
+            },
+            {
+                "Item": "Empty Fluid Tank",
+                "Per-minute": 240.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Oil",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Oil",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Rocket Fuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Rocket Fuel",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rocket Fuel",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Empty Fluid Tank",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Sulfuric Acid",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Sulfuric Acid",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 60.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Turbofuel",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Turbofuel",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Turbofuel",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Unpackage Water",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Packager",
+        "Ingredients": [
+            {
+                "Item": "Packaged Water",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Water",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Uranium Fuel Rod",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Encased Uranium Cell",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Encased Industrial Beam",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Uranium Fuel Rod",
+                "Per-minute": 0.4
+            }
+        ]
+    },
+    {
+        "Name": "Uranium Fuel Rod (burning)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Nuclear Power Plant",
+        "Ingredients": [
+            {
+                "Item": "Uranium Fuel Rod",
+                "Per-minute": 0.2
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 0.2
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Uranium Waste",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Uranium Ore (Bauxite)",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Reanimated SAM",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Bauxite",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Uranium",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Versatile Framework",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Steel Beam",
+                "Per-minute": 2.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Versatile Framework",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Vitamin Inhaler",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Mycelia",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Paleberry",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Medicinal Inhaler",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Wire",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Wire",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Xeno-Basher",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Xeno-Zapper",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 1.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Xeno-Basher",
+                "Per-minute": 0.75
+            }
+        ]
+    },
+    {
+        "Name": "Xeno-Zapper",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Cable",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Xeno-Zapper",
+                "Per-minute": 1.5
+            }
+        ]
+    },
+    {
+        "Name": "Zipline",
+        "Alternate": false,
+        "FICSMAS": false,
+        "Building": "Equipment Workshop",
+        "Ingredients": [
+            {
+                "Item": "Xeno-Zapper",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Quickwire",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Cable",
+                "Per-minute": 1.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Zipline",
+                "Per-minute": 1.5
+            }
+        ]
+    },
+    {
+        "Name": "Adhered Iron Plate",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 11.25
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 11.25
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 3.75
+            }
+        ]
+    },
+    {
+        "Name": "Alclad Casing",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 150.0
+            },
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 150.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 112.5
+            }
+        ]
+    },
+    {
+        "Name": "Aluminum Beam",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 22.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Beam",
+                "Per-minute": 22.5
+            }
+        ]
+    },
+    {
+        "Name": "Aluminum Rod",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 52.5
+            }
+        ]
+    },
+    {
+        "Name": "Automated Miner",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 4.0
+            },
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 4.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Portable Miner",
+                "Per-minute": 1.0
+            }
+        ]
+    },
+    {
+        "Name": "Automated Speed Wiring",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Stator",
+                "Per-minute": 3.75
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 3.75
+            },
+            {
+                "Item": "High-Speed Connector",
+                "Per-minute": 3.75
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Automated Wiring",
+                "Per-minute": 7.5
+            }
+        ]
+    },
+    {
+        "Name": "Basic Iron Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Limestone",
+                "Per-minute": 25.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 50.0
+            }
+        ]
+    },
+    {
+        "Name": "Biocoal",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Biomass",
+                "Per-minute": 37.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Coal",
+                "Per-minute": 45.0
+            }
+        ]
+    },
+    {
+        "Name": "Bolted Frame",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Bolted Iron Plate",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 90.0
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 90.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 15.0
+            }
+        ]
+    },
+    {
+        "Name": "Cast Screw",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 12.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Screw",
+                "Per-minute": 50.0
+            }
+        ]
+    },
+    {
+        "Name": "Caterium Circuit Board",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Plastic",
+                "Per-minute": 12.5
+            },
+            {
+                "Item": "Quickwire",
+                "Per-minute": 12.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 8.75
+            }
+        ]
+    },
+    {
+        "Name": "Caterium Computer",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Quickwire",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Computer",
+                "Per-minute": 3.75
+            }
+        ]
+    },
+    {
+        "Name": "Caterium Wire",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Wire",
+                "Per-minute": 120.0
+            }
+        ]
+    },
+    {
+        "Name": "Charcoal",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Wood",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Coal",
+                "Per-minute": 150.0
+            }
+        ]
+    },
+    {
+        "Name": "Cheap Silica",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 22.5
+            },
+            {
+                "Item": "Limestone",
+                "Per-minute": 22.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Silica",
+                "Per-minute": 52.5
+            }
+        ]
+    },
+    {
+        "Name": "Classic Battery",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Sulfur",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Alclad Aluminum Sheet",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Plastic",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Battery",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Cloudy Diamonds",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Coal",
+                "Per-minute": 240.0
+            },
+            {
+                "Item": "Limestone",
+                "Per-minute": 240.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Diamonds",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Coated Cable",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Wire",
+                "Per-minute": 37.5
+            },
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 37.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Cable",
+                "Per-minute": 67.5
+            }
+        ]
+    },
+    {
+        "Name": "Coated Iron Canister",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Coated Iron Plate",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 37.5
+            },
+            {
+                "Item": "Plastic",
+                "Per-minute": 37.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 75.0
+            }
+        ]
+    },
+    {
+        "Name": "Coke Steel Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 75.0
+            },
+            {
+                "Item": "Petroleum Coke",
+                "Per-minute": 75.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 100.0
+            }
+        ]
+    },
+    {
+        "Name": "Compacted Coal",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Coal",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Sulfur",
+                "Per-minute": 25.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Compacted Coal",
+                "Per-minute": 25.0
+            }
+        ]
+    },
+    {
+        "Name": "Compacted Steel Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Compacted Coal",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Cooling Device",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Heat Sink",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Motor",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Cooling System",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Copper Alloy Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 100.0
+            }
+        ]
+    },
+    {
+        "Name": "Copper Rotor",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 22.5
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 22.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rotor",
+                "Per-minute": 11.25
+            }
+        ]
+    },
+    {
+        "Name": "Crystal Computer",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 5.0
+            },
+            {
+                "Item": "Crystal Oscillator",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Computer",
+                "Per-minute": 3.33333
+            }
+        ]
+    },
+    {
+        "Name": "Dark Matter Crystallization",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 200.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Dark Matter Crystal",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Dark Matter Trap",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Time Crystal",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Dark Matter Residue",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Dark Matter Crystal",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Dark-Ion Fuel",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Packaged Rocket Fuel",
+                "Per-minute": 240.0
+            },
+            {
+                "Item": "Dark Matter Crystal",
+                "Per-minute": 240.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Ionized Fuel",
+                "Per-minute": 200.0
+            },
+            {
+                "Item": "Compacted Coal",
+                "Per-minute": 200.0
+            }
+        ]
+    },
+    {
+        "Name": "Diluted Fuel",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Fuel",
+                "Per-minute": 100.0
+            }
+        ]
+    },
+    {
+        "Name": "Diluted Packaged Fuel",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Packaged Water",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Packaged Fuel",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Distilled Silica",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Dissolved Silica",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Limestone",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Silica",
+                "Per-minute": 270.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 270.0
+            }
+        ]
+    },
+    {
+        "Name": "Electric Motor",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 3.75
+            },
+            {
+                "Item": "Rotor",
+                "Per-minute": 3.75
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Motor",
+                "Per-minute": 7.5
+            }
+        ]
+    },
+    {
+        "Name": "Electrode Aluminum Scrap",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Alumina Solution",
+                "Per-minute": 180.0
+            },
+            {
+                "Item": "Petroleum Coke",
+                "Per-minute": 180.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Aluminum Scrap",
+                "Per-minute": 300.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 300.0
+            }
+        ]
+    },
+    {
+        "Name": "Electrode Circuit Board",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Rubber",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Petroleum Coke",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Electromagnetic Connection Rod",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Stator",
+                "Per-minute": 8.0
+            },
+            {
+                "Item": "High-Speed Connector",
+                "Per-minute": 8.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 8.0
+            }
+        ]
+    },
+    {
+        "Name": "Encased Industrial Pipe",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 24.0
+            },
+            {
+                "Item": "Concrete",
+                "Per-minute": 24.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Encased Industrial Beam",
+                "Per-minute": 4.0
+            }
+        ]
+    },
+    {
+        "Name": "Fertile Uranium",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Uranium",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Uranium Waste",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Nitric Acid",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 25.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Non-Fissile Uranium",
+                "Per-minute": 100.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 100.0
+            }
+        ]
+    },
+    {
+        "Name": "Fine Black Powder",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Sulfur",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Compacted Coal",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Black Powder",
+                "Per-minute": 45.0
+            }
+        ]
+    },
+    {
+        "Name": "Fine Concrete",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Silica",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Limestone",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Concrete",
+                "Per-minute": 50.0
+            }
+        ]
+    },
+    {
+        "Name": "Flexible Framework",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 3.75
+            },
+            {
+                "Item": "Steel Beam",
+                "Per-minute": 3.75
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 3.75
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Versatile Framework",
+                "Per-minute": 7.5
+            }
+        ]
+    },
+    {
+        "Name": "Fused Quartz Crystal",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 75.0
+            },
+            {
+                "Item": "Coal",
+                "Per-minute": 75.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 54.0
+            }
+        ]
+    },
+    {
+        "Name": "Fused Quickwire",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Quickwire",
+                "Per-minute": 90.0
+            }
+        ]
+    },
+    {
+        "Name": "Fused Wire",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 12.0
+            },
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 12.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Wire",
+                "Per-minute": 90.0
+            }
+        ]
+    },
+    {
+        "Name": "Heat Exchanger",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Heat Sink",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Heat-Fused Frame",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Heavy Modular Frame",
+                "Per-minute": 3.0
+            },
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 3.0
+            },
+            {
+                "Item": "Nitric Acid",
+                "Per-minute": 3.0
+            },
+            {
+                "Item": "Fuel",
+                "Per-minute": 3.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Fused Modular Frame",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Heavy Encased Frame",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Encased Industrial Beam",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Concrete",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Heavy Modular Frame",
+                "Per-minute": 2.8125
+            }
+        ]
+    },
+    {
+        "Name": "Heavy Flexible Frame",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 18.75
+            },
+            {
+                "Item": "Encased Industrial Beam",
+                "Per-minute": 18.75
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 18.75
+            },
+            {
+                "Item": "Screw",
+                "Per-minute": 18.75
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Heavy Modular Frame",
+                "Per-minute": 3.75
+            }
+        ]
+    },
+    {
+        "Name": "Heavy Oil Residue",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Polymer Resin",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Infused Uranium Cell",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Uranium",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Silica",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Sulfur",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Quickwire",
+                "Per-minute": 25.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Encased Uranium Cell",
+                "Per-minute": 20.0
+            }
+        ]
+    },
+    {
+        "Name": "Instant Plutonium Cell",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Non-Fissile Uranium",
+                "Per-minute": 75.0
+            },
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 75.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Encased Plutonium Cell",
+                "Per-minute": 10.0
+            }
+        ]
+    },
+    {
+        "Name": "Instant Scrap",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Bauxite",
+                "Per-minute": 150.0
+            },
+            {
+                "Item": "Coal",
+                "Per-minute": 150.0
+            },
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 150.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 150.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Aluminum Scrap",
+                "Per-minute": 300.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 300.0
+            }
+        ]
+    },
+    {
+        "Name": "Insulated Cable",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Wire",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Cable",
+                "Per-minute": 100.0
+            }
+        ]
+    },
+    {
+        "Name": "Insulated Crystal Oscillator",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 18.75
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 18.75
+            },
+            {
+                "Item": "AI Limiter",
+                "Per-minute": 18.75
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Crystal Oscillator",
+                "Per-minute": 1.875
+            }
+        ]
+    },
+    {
+        "Name": "Iron Alloy Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 75.0
+            }
+        ]
+    },
+    {
+        "Name": "Iron Pipe",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 100.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 25.0
+            }
+        ]
+    },
+    {
+        "Name": "Iron Wire",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 12.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Wire",
+                "Per-minute": 22.5
+            }
+        ]
+    },
+    {
+        "Name": "Leached Caterium Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Caterium Ore",
+                "Per-minute": 54.0
+            },
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 54.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 36.0
+            }
+        ]
+    },
+    {
+        "Name": "Leached Copper Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 110.0
+            }
+        ]
+    },
+    {
+        "Name": "Leached Iron ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Sulfuric Acid",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 100.0
+            }
+        ]
+    },
+    {
+        "Name": "Molded Beam",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Concrete",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Beam",
+                "Per-minute": 45.0
+            }
+        ]
+    },
+    {
+        "Name": "Molded Steel Pipe",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 50.0
+            },
+            {
+                "Item": "Concrete",
+                "Per-minute": 50.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 50.0
+            }
+        ]
+    },
+    {
+        "Name": "Nitro Rocket Fuel",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Fuel",
+                "Per-minute": 100.0
+            },
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": 100.0
+            },
+            {
+                "Item": "Sulfur",
+                "Per-minute": 100.0
+            },
+            {
+                "Item": "Coal",
+                "Per-minute": 100.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rocket Fuel",
+                "Per-minute": 150.0
+            },
+            {
+                "Item": "Compacted Coal",
+                "Per-minute": 150.0
+            }
+        ]
+    },
+    {
+        "Name": "OC Supercomputer",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Radio Control Unit",
+                "Per-minute": 6.0
+            },
+            {
+                "Item": "Cooling System",
+                "Per-minute": 6.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Supercomputer",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Oil-Based Diamonds",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": 200.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Diamonds",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Petroleum Diamonds",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Petroleum Coke",
+                "Per-minute": 720.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Diamonds",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Pink Diamonds",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Converter",
+        "Ingredients": [
+            {
+                "Item": "Coal",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Diamonds",
+                "Per-minute": 15.0
+            }
+        ]
+    },
+    {
+        "Name": "Plastic AI Limiter",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Quickwire",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Plastic",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "AI Limiter",
+                "Per-minute": 8.0
+            }
+        ]
+    },
+    {
+        "Name": "Plastic Smart Plating",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Rotor",
+                "Per-minute": 2.5
+            },
+            {
+                "Item": "Plastic",
+                "Per-minute": 2.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Smart Plating",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Plutonium Fuel Unit",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Encased Plutonium Cell",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Pressure Conversion Cube",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Plutonium Fuel Rod",
+                "Per-minute": 0.5
+            }
+        ]
+    },
+    {
+        "Name": "Polyester Fabric",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Polymer Resin",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Fabric",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Polymer Resin",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Polymer Resin",
+                "Per-minute": 130.0
+            },
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 130.0
+            }
+        ]
+    },
+    {
+        "Name": "Pure Aluminum Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Smelter",
+        "Ingredients": [
+            {
+                "Item": "Aluminum Scrap",
+                "Per-minute": 60.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Aluminum Ingot",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Pure Caterium Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Caterium Ore",
+                "Per-minute": 24.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 24.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 12.0
+            }
+        ]
+    },
+    {
+        "Name": "Pure Copper Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 37.5
+            }
+        ]
+    },
+    {
+        "Name": "Pure Iron Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": 35.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 35.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 65.0
+            }
+        ]
+    },
+    {
+        "Name": "Pure Quartz Crystal",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 67.5
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 67.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 52.5
+            }
+        ]
+    },
+    {
+        "Name": "Quartz Purification",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Nitric Acid",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 75.0
+            },
+            {
+                "Item": "Dissolved Silica",
+                "Per-minute": 75.0
+            }
+        ]
+    },
+    {
+        "Name": "Quickwire Cable",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Quickwire",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Cable",
+                "Per-minute": 27.5
+            }
+        ]
+    },
+    {
+        "Name": "Quickwire Stator",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 16.0
+            },
+            {
+                "Item": "Quickwire",
+                "Per-minute": 16.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Stator",
+                "Per-minute": 8.0
+            }
+        ]
+    },
+    {
+        "Name": "Radio Connection Unit",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Heat Sink",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "High-Speed Connector",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Quartz Crystal",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Radio Control Unit",
+                "Per-minute": 3.75
+            }
+        ]
+    },
+    {
+        "Name": "Radio Control System",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Crystal Oscillator",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Aluminum Casing",
+                "Per-minute": 1.5
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 1.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Radio Control Unit",
+                "Per-minute": 4.5
+            }
+        ]
+    },
+    {
+        "Name": "Recycled Plastic",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Rubber",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Fuel",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Plastic",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Recycled Rubber",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Plastic",
+                "Per-minute": 30.0
+            },
+            {
+                "Item": "Fuel",
+                "Per-minute": 30.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rubber",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Rigor Motor",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Rotor",
+                "Per-minute": 3.75
+            },
+            {
+                "Item": "Stator",
+                "Per-minute": 3.75
+            },
+            {
+                "Item": "Crystal Oscillator",
+                "Per-minute": 3.75
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Motor",
+                "Per-minute": 7.5
+            }
+        ]
+    },
+    {
+        "Name": "Rubber Concrete",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Limestone",
+                "Per-minute": 100.0
+            },
+            {
+                "Item": "Rubber",
+                "Per-minute": 100.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Concrete",
+                "Per-minute": 90.0
+            }
+        ]
+    },
+    {
+        "Name": "Silicon Circuit Board",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 27.5
+            },
+            {
+                "Item": "Silica",
+                "Per-minute": 27.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 12.5
+            }
+        ]
+    },
+    {
+        "Name": "Silicon High-Speed Connector",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Quickwire",
+                "Per-minute": 90.0
+            },
+            {
+                "Item": "Silica",
+                "Per-minute": 90.0
+            },
+            {
+                "Item": "Circuit Board",
+                "Per-minute": 90.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "High-Speed Connector",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Sloppy Alumina",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Bauxite",
+                "Per-minute": 200.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 200.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Alumina Solution",
+                "Per-minute": 240.0
+            }
+        ]
+    },
+    {
+        "Name": "Solid Steel Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 40.0
+            },
+            {
+                "Item": "Coal",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Steamed Copper Sheet",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 22.5
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 22.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Sheet",
+                "Per-minute": 22.5
+            }
+        ]
+    },
+    {
+        "Name": "Steel Canister",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 40.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Empty Canister",
+                "Per-minute": 40.0
+            }
+        ]
+    },
+    {
+        "Name": "Steel Cast Plate",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Iron Ingot",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 45.0
+            }
+        ]
+    },
+    {
+        "Name": "Steel Rod",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Steel Ingot",
+                "Per-minute": 12.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Iron Rod",
+                "Per-minute": 48.0
+            }
+        ]
+    },
+    {
+        "Name": "Steel Rotor",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 10.0
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 10.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Rotor",
+                "Per-minute": 5.0
+            }
+        ]
+    },
+    {
+        "Name": "Steel Screw",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Constructor",
+        "Ingredients": [
+            {
+                "Item": "Steel Beam",
+                "Per-minute": 5.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Screw",
+                "Per-minute": 260.0
+            }
+        ]
+    },
+    {
+        "Name": "Steeled Frame",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 2.0
+            },
+            {
+                "Item": "Steel Pipe",
+                "Per-minute": 2.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Modular Frame",
+                "Per-minute": 3.0
+            }
+        ]
+    },
+    {
+        "Name": "Stitched Iron Plate",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Assembler",
+        "Ingredients": [
+            {
+                "Item": "Iron Plate",
+                "Per-minute": 18.75
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 18.75
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Reinforced Iron Plate",
+                "Per-minute": 5.625
+            }
+        ]
+    },
+    {
+        "Name": "Super-State Computer",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Computer",
+                "Per-minute": 7.2
+            },
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 7.2
+            },
+            {
+                "Item": "Battery",
+                "Per-minute": 7.2
+            },
+            {
+                "Item": "Wire",
+                "Per-minute": 7.2
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Supercomputer",
+                "Per-minute": 2.4
+            }
+        ]
+    },
+    {
+        "Name": "Tempered Caterium Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Caterium Ore",
+                "Per-minute": 45.0
+            },
+            {
+                "Item": "Petroleum Coke",
+                "Per-minute": 45.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Caterium Ingot",
+                "Per-minute": 22.5
+            }
+        ]
+    },
+    {
+        "Name": "Tempered Copper Ingot",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Foundry",
+        "Ingredients": [
+            {
+                "Item": "Copper Ore",
+                "Per-minute": 25.0
+            },
+            {
+                "Item": "Petroleum Coke",
+                "Per-minute": 25.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Copper Ingot",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Turbo Blend Fuel",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Blender",
+        "Ingredients": [
+            {
+                "Item": "Fuel",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Sulfur",
+                "Per-minute": 15.0
+            },
+            {
+                "Item": "Petroleum Coke",
+                "Per-minute": 15.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Turbofuel",
+                "Per-minute": 45.0
+            }
+        ]
+    },
+    {
+        "Name": "Turbo Diamonds",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Particle Accelerator",
+        "Ingredients": [
+            {
+                "Item": "Coal",
+                "Per-minute": 600.0
+            },
+            {
+                "Item": "Packaged Turbofuel",
+                "Per-minute": 600.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Diamonds",
+                "Per-minute": 60.0
+            }
+        ]
+    },
+    {
+        "Name": "Turbo Electric Motor",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Motor",
+                "Per-minute": 6.5625
+            },
+            {
+                "Item": "Radio Control Unit",
+                "Per-minute": 6.5625
+            },
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 6.5625
+            },
+            {
+                "Item": "Rotor",
+                "Per-minute": 6.5625
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Turbo Motor",
+                "Per-minute": 2.8125
+            }
+        ]
+    },
+    {
+        "Name": "Turbo Heavy Fuel",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Heavy Oil Residue",
+                "Per-minute": 37.5
+            },
+            {
+                "Item": "Compacted Coal",
+                "Per-minute": 37.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Turbofuel",
+                "Per-minute": 30.0
+            }
+        ]
+    },
+    {
+        "Name": "Turbo Pressure Motor",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Motor",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Pressure Conversion Cube",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Packaged Nitrogen Gas",
+                "Per-minute": 7.5
+            },
+            {
+                "Item": "Stator",
+                "Per-minute": 7.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Turbo Motor",
+                "Per-minute": 3.75
+            }
+        ]
+    },
+    {
+        "Name": "Turbofuel",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Fuel",
+                "Per-minute": 22.5
+            },
+            {
+                "Item": "Compacted Coal",
+                "Per-minute": 22.5
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Turbofuel",
+                "Per-minute": 18.75
+            }
+        ]
+    },
+    {
+        "Name": "Uranium Fuel Unit",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Manufacturer",
+        "Ingredients": [
+            {
+                "Item": "Encased Uranium Cell",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Electromagnetic Control Rod",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Crystal Oscillator",
+                "Per-minute": 20.0
+            },
+            {
+                "Item": "Rotor",
+                "Per-minute": 20.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Uranium Fuel Rod",
+                "Per-minute": 0.6
+            }
+        ]
+    },
+    {
+        "Name": "Wet Concrete",
+        "Alternate": true,
+        "FICSMAS": false,
+        "Building": "Refinery",
+        "Ingredients": [
+            {
+                "Item": "Limestone",
+                "Per-minute": 120.0
+            },
+            {
+                "Item": "Water",
+                "Per-minute": 120.0
+            }
+        ],
+        "Outputs": [
+            {
+                "Item": "Concrete",
+                "Per-minute": 80.0
+            }
+        ]
+    }
+]
