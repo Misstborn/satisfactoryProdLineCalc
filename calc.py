@@ -1,36 +1,49 @@
 import json
-import dearpygui.dearpygui as dpg
-dpg.create_context()
 
+EXTRACTED_ITEMS = ('Iron Ore', 'Copper Ore', 'Caterium Ore', 'Limestone', 'Coal', 'Raw', 'Sulfur', 'Bauxite', 'Uranium'
+                    , 'SAM', 'Water', 'Crude Oil', 'Nitrogen Gas', 'FICSMAS Gift', 'Mycelia', 'Beryl Nut', 'Paleberry',
+                    'Bacon Agaric', 'Blue Power Slug', 'Yellow Power Slug', 'Purple Power Slug', 'Hog Remains',
+                    'Hatcher Remains', 'Spitter Remains', 'Stinger Remains', 'Wood', 'Leaves')
 
 class Recipe:
-    def __init__(self, item, name, building, alt, ipm, ingredients):
-        self.item = item
+    def __init__(self, name, alt, ficsmas, building, ingredients, outputs):
         self.name = name
         self.building = building
         self.alt = alt
-        self.ipm = ipm
+        self.ficsmas = ficsmas
         self.ingredients = ingredients
+        self.items = [item['Item'] for item in outputs]
+        self.ipm = [item['Per-minute'] for item in outputs]
         self.clockspeed = 1
+
+    def __contains__(self, item):
+        if not isinstance(item, str):
+            raise TypeError("Item is not a string")
+
+        return item in self.items
 
     def calc_clockspeed(self):
         pass
 
+    def recipes_for_inputs(self):
+        _ingredient_recipes = []
+        for _ingredient in self.ingredients:
+            if any(extracted_item in _ingredient for extracted_item in EXTRACTED_ITEMS):
+                continue
 
-"""with open('recipes.json', 'r') as jsonfile:
-    for recipe in json.load(jsonfile):
-        print(recipe)"""
+            for _item in recipes:
+                if _ingredient['Item'] in _item and not _item.alt:
+                    _ingredient_recipes.append(_item)
+
+        return _ingredient_recipes
+
+#problems: Compacted Coal, Encased Uranium Cell,
+recipes = []
+with open('recipes.json', 'r') as file:
+    for _recipe in json.load(file):
+        recipes.append(Recipe(*_recipe.values()))
 
 
-with dpg.window(tag="Recipe Calculator", width=300, height=300):
-    dpg.add_text("Hello, world")
-    dpg.add_button(label="Save")
-    dpg.add_input_text(label="string", default_value="Quick brown fox")
-    dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
-
-dpg.create_viewport(title='Custom Title', width=600, height=200)
-dpg.setup_dearpygui()
-dpg.show_viewport()
-dpg.set_primary_window('Recipe Calculator', True)
-dpg.start_dearpygui()
-dpg.destroy_context()
+print(vars(recipes[28]))
+print(len(recipes))
+print(list(vars(i) for i in recipes[28].recipes_for_inputs()))
