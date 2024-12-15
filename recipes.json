@@ -1242,7 +1242,7 @@
         "Outputs": [
             {
                 "Item": "Excited Photonic Matter",
-                "Per-minute": 200.0
+                "Per-minute": null
             }
         ]
     },
@@ -7213,6 +7213,201 @@
             {
                 "Item": "Concrete",
                 "Per-minute": 80.0
+            }
+        ]
+    },
+    {
+        "Name": "Limestone",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Limestone",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Iron Ore",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Iron Ore",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Copper Ore",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Copper Ore",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Caterium Ore",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Caterium Ore",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Coal",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Coal",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Sulfur",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Sulfur",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Bauxite",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Bauxite",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Raw Quartz",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Raw Quartz",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Uranium",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Uranium",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "SAM",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "SAM",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Crude Oil",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Oil Extractor",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Crude Oil Well",
+        "Alternate": true,
+        "FiCSMAS": false,
+        "Building": "Resource Well Pressurize + Extractor",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Crude Oil",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Water",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Water Extractor",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Water",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Water Well",
+        "Alternate": true,
+        "FiCSMAS": false,
+        "Building": "Resource Well Pressurizer + Extractor",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Water",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Nitrogen Gas",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Miner",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Nitrogen Gas",
+                "Per-minute": null
             }
         ]
     }
