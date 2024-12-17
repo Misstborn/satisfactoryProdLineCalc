@@ -3,31 +3,120 @@ import sys
 from PySide2.QtWidgets import (QApplication, QMainWindow, QGraphicsView, QGraphicsScene, QGraphicsEllipseItem,
                                QGraphicsTextItem, QGraphicsLineItem, QGraphicsRectItem, QGraphicsPathItem, QComboBox,
                                QGraphicsProxyWidget)
-from PySide2.QtGui import QPen, QBrush, QColor, QPainterPath
-from PySide2.QtCore import Qt, QRectF, QPointF
+from PySide2.QtGui import QPen, QBrush, QColor, QPainterPath, QFont
+from PySide2.QtCore import Qt, QRectF, QPointF, QLineF
+import calc
+import json
 
+# Reads recipes.json to load each recipe into a list of Items.
+with open('recipes.json', 'r') as file:
+    for _recipe in json.load(file):
+        new_recipe = calc.Recipe(*_recipe.values())
+        for item in new_recipe.items:
+            calc.Item(item, new_recipe)
+
+print(vars(calc.Item.all_items[1]))
+
+
+# A given Node represents one recipe, with a building, inputs, outputs, a clock speed, and the option to change the used
+# recipe.
 class Node(QGraphicsRectItem):
-    def __init__(self, x, y, label="Node", width=250, height=100):
-        super().__init__(-width/2, -height/2, width, height)  # Create a rectangular node
-        self.setPos(x, y)
+    def __init__(self, x, y, _item, width=200, height=125):
+        # Initialization
+        super().__init__(0, 0, width, height)  # Create a rectangular node
+        self.item = _item
+        # print(self.item)
+        self.setPos(x, y) # Set location
         self.setBrush(QBrush(QColor(100, 150, 250)))  # Fill color
         self.setPen(QPen(Qt.black, 2))  # Border color
 
-        # Add a label to the node
-        text = QGraphicsTextItem(label, self)
-        text.setDefaultTextColor(Qt.white)
-        text.setPos(-text.boundingRect().width() / 2, -text.boundingRect().height() / 2)  # Center label in node
+        self.input_labels = [] # Labels for recipe components
+        self.output_labels = [] # Labels for recipe products
 
-        combo_box = QComboBox()
-        combo_box.addItem("Option 1")
-        combo_box.addItem("Option 2")
-        combo_box.addItem("Option 3")
-        proxy_widget_combo = QGraphicsProxyWidget(self)
-        proxy_widget_combo.setWidget(combo_box)
-        proxy_widget_combo.setPos(10, 10)
+        self.center = QPointF(self.pos().x() + self.boundingRect().width() / 2,  # Center point of Node
+                              self.pos().y() + self.boundingRect().height() / 2)
+        self.local_center = QPointF(width / 2, height / 2)  # Local center point of Node for children
+        self.center_right_wall = QPointF(self.pos().x() + self.boundingRect().width(), self.center.y())  # Midpoint of right wall
+        self.center_left_wall = QPointF(self.pos().x(), self.center.y()) #  Midpoint of left well
 
+        self.recipe_combo = QComboBox()  # Combo (multiple choice) box to select the used recipe.
+
+        # For each recipe used to make the item, add to combo box
+        for __recipe in self.item:
+            self.recipe_combo.addItem(__recipe.name)
+        self.recipe_combo.currentTextChanged.connect(self.change_recipe)  # Connect the changing of the selected recipe to the change_recipe method.
+        self.change_recipe(self.recipe_combo.currentText())  # Run change_recipe to show the labels for the initial recipe.
+
+        self.recipe_proxy_widget = QGraphicsProxyWidget(self)  # Proxy to place combo box inside Node.
+        self.recipe_proxy_widget.setWidget(self.recipe_combo)  # Assign proxy the combo box widget.
+        self.recipe_proxy_widget.setPos(self.local_center.x() - (self.recipe_proxy_widget.boundingRect().width() / 2), 2)  # Set position of combo box to top center.
+        self.recipe_proxy_widget.setZValue(1)  # Place combo box so it displays over other objects. (Displays the dropdown over item labels, namely.)
+
+
+    # Method to create and place a label for the input or output item, with correct flow rate.
+    def add_item(self, _is_input, __item):
+        # Create label with specific font and color.
+        item_label = QGraphicsTextItem(f'{__item.name}', self)
+        item_label.setDefaultTextColor(Qt.white)
+        item_label.setFont(QFont('Arial', 6))
+
+        # If item is a component.
+        if _is_input:
+            self.input_labels.append(item_label)  # Add to list of components.
+            label_list = self.input_labels  # Set local label_list to the component list.
+            x_pos = -2  # Set x position of the label.
+
+        # If item is a product.
+        else:
+            self.output_labels.append(item_label)  # Add to list of products.
+            label_list = self.output_labels  # Set local label_list to the product list.
+            x_pos = self.boundingRect().width() - item_label.boundingRect().width()  # Set x position of label.
+
+        # Get how far the label should be placed from the center in order to have all the labels centered around the centerline of Node.
+        center_offset = ((item_label.boundingRect().height() / 2) +
+                         ((len(label_list) - 1) / 2) * item_label.boundingRect().height())
+        if len(label_list) % 2 == 0:
+            center_offset = (item_label.boundingRect().height() + 1) * (len(label_list) / 2)
+
+        # For each label in whichever list is being used, place it then subtract its size (along with padding) from the offset.
+        for item_label in label_list:
+            item_label.setPos(x_pos, self.local_center.y() - center_offset)
+            center_offset -= item_label.boundingRect().height() + 2
+
+    # Method to change the currently used recipe.
+    def change_recipe(self, _recipe_name):
+        # Set recipe variable, it should always be overridden.
+        __recipe = None
+
+        # Remove all labels from visibility, and then delete them.
+        for label in self.input_labels + self.output_labels:
+            label.scene().removeItem(label)
+            del label
+
+        # Label lists are now full of null pointers, set them to empty.
+        self.input_labels = []
+        self.output_labels = []
+
+        # Find the correct Recipe object based on the recipe name.
+        for recipe in self.item:
+            if recipe.name == _recipe_name:
+                __recipe = recipe
+
+        # print(vars(__recipe))
+        # Populate labels.
+        for __ingredient in __recipe.ingredients:
+           _item_object = calc.Item.all_items[calc.Item.all_items.index(__ingredient['Item'])]
+           self.add_item(True, _item_object)
+
+        for __output in __recipe.items:
+            _item_object = calc.Item.all_items[calc.Item.all_items.index(__output)]
+            self.add_item(False, _item_object)
+
+
+# Main visible window that will contain the nodes.
 class FlowchartWindow(QMainWindow):
     def __init__(self):
+        # Initialization
         super().__init__()
         self.setWindowTitle("Flowchart Example with PySide2")
         self.setGeometry(100, 100, 800, 600)
@@ -38,9 +127,9 @@ class FlowchartWindow(QMainWindow):
         self.setCentralWidget(self.view)
 
         # Create nodes
-        node1 = Node(0, 200, "Start")
-        node2 = Node(300, 200, "Process")
-        node3 = Node(600, 100, "End")
+        node1 = Node(0, 200, calc.Item.all_items[1])
+        node2 = Node(300, 200, calc.Item.all_items[1])
+        node3 = Node(600, 100, calc.Item.all_items[2])
 
         # Add nodes to the scene
         self.scene.addItem(node1)
@@ -48,24 +137,24 @@ class FlowchartWindow(QMainWindow):
         self.scene.addItem(node3)
 
         # Connect nodes with lines
-        self.add_path_connection(node1, node2)
-        self.add_path_connection(node2, node3)
+        self.add_path_connection(node1.center_right_wall, node2.center_left_wall)
+        self.add_path_connection(node2.center_right_wall, node3.center_left_wall)
 
-    def add_path_connection(self, node1, node2):
+    # Method to add a line between 2 points.
+    def add_path_connection(self, _start, _end):
         # Add path object
         _path = QPainterPath()
 
-        if abs(node1.pos().y() - node2.pos().y()) <= (node2.pos().x() - node2.boundingRect().width() / 2) - (node1.pos().x() + node1.boundingRect().width() / 2):
-            curve_radius = (node1.pos().y() - node2.pos().y()) / 2.75  # Hard coded appearance quality number
+        # Determine which axis difference the curve radius should be based on.
+        if abs(_start.y() - _end.y()) <= _end.x() - _end.x():
+            curve_radius = (_start.y() - _end.y()) / 2.75  # Hard coded appearance quality number
 
         else:
-            curve_radius = ((node2.pos().x() - node2.boundingRect().width() / 2) - (node1.pos().x() + node1.boundingRect().width() / 2)) / 2.75
+            curve_radius = (_end.x() - _start.x()) / 2.75
 
         print(curve_radius)
 
         # Start is midpoint of the right side of node 1, end is midpoint of left side of node 2
-        _start = QPointF(node1.pos().x() + node1.boundingRect().width() / 2, node1.pos().y())
-        _end = QPointF(node2.pos().x() - node2.boundingRect().width() / 2, node2.pos().y())
         # Midpoint between nodes
         x_midpoint = ((_end.x() - _start.x()) / 2) + _start.x()
         # Control points offset by curve radius from midline

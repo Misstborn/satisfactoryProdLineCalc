@@ -5,10 +5,13 @@ EXTRACTED_ITEMS = ('Iron Ore', 'Copper Ore', 'Caterium Ore', 'Limestone', 'Coal'
                     'Bacon Agaric', 'Blue Power Slug', 'Yellow Power Slug', 'Purple Power Slug', 'Hog Remains',
                     'Hatcher Remains', 'Spitter Remains', 'Stinger Remains', 'Wood', 'Leaves')
 
+# Recipe class, only used to define an object with certain attributes. New instances should not be created after the
+# initial list of all recipes.
 class Recipe:
     all_recipes = []
 
     def __init__(self, name, alt, ficsmas, building, ingredients, outputs):
+        # Initialization
         self.name = name
         self.building = building
         self.alt = alt
@@ -17,11 +20,13 @@ class Recipe:
         self.items = [item['Item'] for item in outputs]
         self.ipm = [item['Per-minute'] for item in outputs]
         self.clockspeed = 1
-        self.is_base = True if self.ingredients is None else False
+        self.is_base = True if self.ingredients is None else False  # If item is a "base" ingredient, aka cannot be crafted
 
+        # Add this instance to the list of all recipes
         Recipe.all_recipes.append(self)
 
     def __contains__(self, _item):
+        # Allows to check if a given item is an output of a Recipe with in.
         if not isinstance(_item, str):
             raise TypeError("Item is not a string")
 
@@ -30,6 +35,7 @@ class Recipe:
     def calc_clockspeed(self):
         pass
 
+    # Currently unused
     def recipes_for_inputs(self):
         if not self.is_base:
             _ingredient_recipes = []
@@ -45,12 +51,14 @@ class Recipe:
         else:
             raise TypeError("Item is a base with no prior ingredients.")
 
-
+# Similar to recipe, new instances should not be created. Contains a list of every item along with each recipe that can
+# create that item
 class Item:
 
     all_items = []
 
     def __init__(self, name, recipe, add_to_list=True):
+        # Initialization
         self.name = name
         self.recipes = [recipe]
 
@@ -94,6 +102,7 @@ class Item:
         del self.recipes[index]
 
     def __contains__(self, recipe):
+        # Allows for checking if an item is made by a given recipe using in.
         for contained_recipe in self.recipes:
             if contained_recipe.name == recipe.name:
                 return True
@@ -119,7 +128,7 @@ class Item:
 
 
 #problems: Compacted Coal, Encased Uranium Cell,
-with open('recipes.json', 'r') as file:
+"""with open('recipes.json', 'r') as file:
     for _recipe in json.load(file):
         new_recipe = Recipe(*_recipe.values())
         for item in new_recipe.items:
@@ -132,3 +141,4 @@ print(list(vars(i) for i in Recipe.all_recipes[28].recipes_for_inputs()))
 print(vars(Item.all_items[1]))
 print(len(Item.all_items))
 print(list(vars(i) for i in Item.all_items[1].recipes))
+"""
