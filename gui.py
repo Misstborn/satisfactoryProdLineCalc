@@ -3,7 +3,7 @@ import sys
 from PySide2.QtWidgets import (QApplication, QMainWindow, QGraphicsView, QGraphicsScene, QGraphicsEllipseItem,
                                QGraphicsTextItem, QGraphicsLineItem, QGraphicsRectItem, QGraphicsPathItem, QComboBox,
                                QGraphicsProxyWidget)
-from PySide2.QtGui import QPen, QBrush, QColor, QPainterPath, QFont
+from PySide2.QtGui import QPen, QBrush, QColor, QPainterPath, QFont, QPainter
 from PySide2.QtCore import Qt, QRectF, QPointF, QLineF
 import calc
 import json
@@ -15,16 +15,21 @@ with open('recipes.json', 'r') as file:
         for item in new_recipe.items:
             calc.Item(item, new_recipe)
 
-print(vars(calc.Item.all_items[1]))
+for item in calc.Item.all_items:
+    item.order_recipes()
+
+print(vars(calc.Recipe.all_recipes[0].get_full_tree()))
+print(calc.Item.all_items[0].recipes[0].get_ingredients())
 
 
 # A given Node represents one recipe, with a building, inputs, outputs, a clock speed, and the option to change the used
 # recipe.
 class Node(QGraphicsRectItem):
-    def __init__(self, x, y, _item, width=200, height=125):
+    def __init__(self, x, y, _item, width=275, height=125):
         # Initialization
         super().__init__(0, 0, width, height)  # Create a rectangular node
         self.item = _item
+        self.current_recipe = self.item.recipes[0]
         # print(self.item)
         self.setPos(x, y) # Set location
         self.setBrush(QBrush(QColor(100, 150, 250)))  # Fill color
@@ -45,7 +50,7 @@ class Node(QGraphicsRectItem):
         for __recipe in self.item:
             self.recipe_combo.addItem(__recipe.name)
         self.recipe_combo.currentTextChanged.connect(self.change_recipe)  # Connect the changing of the selected recipe to the change_recipe method.
-        self.change_recipe(self.recipe_combo.currentText())  # Run change_recipe to show the labels for the initial recipe.
+        self.change_recipe(self.current_recipe.name)  # Run change_recipe to show the labels for the initial recipe.
 
         self.recipe_proxy_widget = QGraphicsProxyWidget(self)  # Proxy to place combo box inside Node.
         self.recipe_proxy_widget.setWidget(self.recipe_combo)  # Assign proxy the combo box widget.
@@ -54,23 +59,22 @@ class Node(QGraphicsRectItem):
 
 
     # Method to create and place a label for the input or output item, with correct flow rate.
-    def add_item(self, _is_input, __item):
+    def add_item(self, _is_input, __item, __rate):
         # Create label with specific font and color.
-        item_label = QGraphicsTextItem(f'{__item.name}', self)
+        item_label = QGraphicsTextItem(f'{__rate} {__item.name}/m', self)
         item_label.setDefaultTextColor(Qt.white)
-        item_label.setFont(QFont('Arial', 6))
+        item_label.setFont(QFont('Arial', 7))
 
         # If item is a component.
         if _is_input:
             self.input_labels.append(item_label)  # Add to list of components.
             label_list = self.input_labels  # Set local label_list to the component list.
-            x_pos = -2  # Set x position of the label.
 
         # If item is a product.
         else:
+            # print(f'Item: {__item.name}, {item_label.boundingRect()}')
             self.output_labels.append(item_label)  # Add to list of products.
             label_list = self.output_labels  # Set local label_list to the product list.
-            x_pos = self.boundingRect().width() - item_label.boundingRect().width()  # Set x position of label.
 
         # Get how far the label should be placed from the center in order to have all the labels centered around the centerline of Node.
         center_offset = ((item_label.boundingRect().height() / 2) +
@@ -79,15 +83,13 @@ class Node(QGraphicsRectItem):
             center_offset = (item_label.boundingRect().height() + 1) * (len(label_list) / 2)
 
         # For each label in whichever list is being used, place it then subtract its size (along with padding) from the offset.
-        for item_label in label_list:
-            item_label.setPos(x_pos, self.local_center.y() - center_offset)
-            center_offset -= item_label.boundingRect().height() + 2
+        for _item_label in label_list:
+            x_pos = -2 if _is_input else self.boundingRect().width() - _item_label.boundingRect().width() - 1  # Set x position of label.
+            _item_label.setPos(x_pos, self.local_center.y() - center_offset)
+            center_offset -= _item_label.boundingRect().height() + 2
 
     # Method to change the currently used recipe.
     def change_recipe(self, _recipe_name):
-        # Set recipe variable, it should always be overridden.
-        __recipe = None
-
         # Remove all labels from visibility, and then delete them.
         for label in self.input_labels + self.output_labels:
             label.scene().removeItem(label)
@@ -100,31 +102,31 @@ class Node(QGraphicsRectItem):
         # Find the correct Recipe object based on the recipe name.
         for recipe in self.item:
             if recipe.name == _recipe_name:
-                __recipe = recipe
+                self.current_recipe = recipe
 
-        # print(vars(__recipe))
+        print(vars(self.current_recipe))
         # Populate labels.
-        for __ingredient in __recipe.ingredients:
-           _item_object = calc.Item.all_items[calc.Item.all_items.index(__ingredient['Item'])]
-           self.add_item(True, _item_object)
+        for __ingredient in self.current_recipe.ingredients:
+            _item_object = calc.Item.all_items[calc.Item.all_items.index(__ingredient['Item'])]
+            self.add_item(True, _item_object, __ingredient['Per-minute'])
 
-        for __output in __recipe.items:
-            _item_object = calc.Item.all_items[calc.Item.all_items.index(__output)]
-            self.add_item(False, _item_object)
+        for __output in self.current_recipe.outputs:
+            _item_object = calc.Item.all_items[calc.Item.all_items.index(__output['Item'])]
+            self.add_item(False, _item_object, __output['Per-minute'])
 
 
 # Main visible window that will contain the nodes.
-class FlowchartWindow(QMainWindow):
+class MainWindow(QMainWindow):
     def __init__(self):
         # Initialization
         super().__init__()
-        self.setWindowTitle("Flowchart Example with PySide2")
+        self.setWindowTitle("Satisfactory Production Layout Manager")
         self.setGeometry(100, 100, 800, 600)
 
         # Set up the scene and view
         self.scene = QGraphicsScene()
-        self.view = QGraphicsView(self.scene, self)
-        self.setCentralWidget(self.view)
+        self.flowchart = FlowchartView(self.scene, self)
+        self.setCentralWidget(self.flowchart)
 
         # Create nodes
         node1 = Node(0, 200, calc.Item.all_items[1])
@@ -137,11 +139,29 @@ class FlowchartWindow(QMainWindow):
         self.scene.addItem(node3)
 
         # Connect nodes with lines
-        self.add_path_connection(node1.center_right_wall, node2.center_left_wall)
-        self.add_path_connection(node2.center_right_wall, node3.center_left_wall)
+        self.flowchart.add_path_connection(node1.center_right_wall, node2.center_left_wall)
+        self.flowchart.add_path_connection(node2.center_right_wall, node3.center_left_wall)
 
-    # Method to add a line between 2 points.
+
+class FlowchartView(QGraphicsView):
+    def __init__(self, __graphics_scene, __parent):
+        super().__init__(__graphics_scene, __parent)
+        self.scene = __graphics_scene
+        self.setRenderHint(QPainter.Antialiasing)
+        self.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.scene.setSceneRect(-250, -250, 2000, 2000)
+
+        # Translation variables
+        self.scale_factor = 1.0
+        self.max_zoom = 5.0
+        self.min_zoom = 0.2
+        self._is_panning = False
+        self._pan_start = QPointF()
+
+
     def add_path_connection(self, _start, _end):
+        """Create a line with smooth Bézier curves for corners between two points."""
         # Add path object
         _path = QPainterPath()
 
@@ -191,8 +211,64 @@ class FlowchartWindow(QMainWindow):
         ellipse.setPen(QPen(Qt.black))
         self.scene.addItem(ellipse)
 
+    def wheelEvent(self, event):
+        """Zoom in or out based on the mouse wheel movement."""
+        zoom_in_factor = 1.1
+        zoom_out_factor = 1 / zoom_in_factor
+
+        # Determine the zoom direction
+        if event.angleDelta().y() > 0:  # Scroll up
+            if self.scale_factor < self.max_zoom:
+                self.scale(zoom_in_factor, zoom_in_factor)
+                self.scale_factor *= zoom_in_factor
+        else:  # Scroll down
+            if self.scale_factor > self.min_zoom:
+                self.scale(zoom_out_factor, zoom_out_factor)
+                self.scale_factor *= zoom_out_factor
+
+    def mousePressEvent(self, event):
+        """Start panning when the middle or left mouse button is pressed."""
+        if event.button() == Qt.MiddleButton:
+            self._is_panning = True
+            self.viewport().setCursor(Qt.ClosedHandCursor)  # Change cursor to indicate panning.
+            self._pan_start = event.pos()  # Record the starting position.
+
+        # If other type of mousepress, super mousePressEvent
+        else:
+            super().mousePressEvent(event)
+
+    def mouseMoveEvent(self, event):
+        """Handle panning when the mouse moves."""
+        if self._is_panning:
+            # Calculate the distance the mouse has moved.
+            delta = self._pan_start - event.pos()
+            self._pan_start = event.pos()  # Update the last position.
+
+            # Adjust the scroll position of the view to reflect movement.
+            self.horizontalScrollBar().setValue(
+                self.horizontalScrollBar().value() + delta.x()
+            )
+            self.verticalScrollBar().setValue(
+                self.verticalScrollBar().value() + delta.y()
+            )
+
+        # If not panning, super mousePressEvent
+        else:
+            super().mouseMoveEvent(event)
+
+    def mouseReleaseEvent(self, event):
+        """Stop panning when the mouse button is released."""
+        if event.button() == Qt.MiddleButton:
+            self._is_panning = False
+            self.viewport().setCursor(Qt.ArrowCursor)  # Restore the default cursor
+
+        # If other type of mouserelease, super mouseReleaseEvent
+        else:
+            super().mouseReleaseEvent(event)
+
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = FlowchartWindow()
+    window = MainWindow()
     window.show()
     sys.exit(app.exec_())

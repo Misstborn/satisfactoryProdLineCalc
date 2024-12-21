@@ -9,6 +9,7 @@ def to_json(name, alternate, building, ingredients, outputs):
     try:
         formatted_ingredients = [{"Item": item_name, "Per-minute": float(quantity.replace(',', ''))} for
                                  item_name, quantity in ingredients]
+        # print(formatted_ingredients)
     except TypeError:
         formatted_ingredients = None
 
@@ -62,23 +63,27 @@ for recipe in recipeTable[1:]:
             # Try except to catch there not being any inputs/outputs
             try:
                 # Temp variable to reduce function calls, finds specific text span
-                ipmSpan = itemSet.find('div', {'class': 'recipe-item'}).find('span', {'class': 'item-minute'})
+                isSupply = ('supplied' in itemSet.find('div', {'class': 'recipe-item'})
+                            .find('span', {'class': 'item-minute'}).get('title'))
+                isWithdrawn = ('withdrawn' in itemSet.find('div', {'class': 'recipe-item'})
+                            .find('span', {'class': 'item-minute'}).get('title'))
             except AttributeError:
-                ipmSpan = None
+                isSupply = None
 
             else:
                 # For each item in the set, get the name
                 for item in itemSet.find_all('div', {'class': 'recipe-item'}):
-                    itemSetNames.append((item.find('a').get('title'), ipmSpan.text[:-6]))
+                    itemSetNames.append((item.find('a').get('title'), item.find('span', {'class': 'item-minute'}).text[:-6]))
 
                 # Put list of item names into recipeComponents/Outputs depending on which one the text specifies
-                if 'supplied' in ipmSpan.get('title'):
+                if isSupply:
                     recipeComponents = itemSetNames
-                elif 'withdrawn' in ipmSpan.get('title'):
+                elif isWithdrawn:
                     recipeOutputs = itemSetNames
 
-    print(f'Name: {recipeName}, Components: {recipeComponents}, Outputs: {recipeOutputs}, Produced in: '
-          f'{recipeBuilding}')
+    # print(f'Name: {recipeName}, Components: {recipeComponents}, Outputs: {recipeOutputs}, Produced in: '
+    #       f'{recipeBuilding}')
+    print(recipeComponents)
 
     outputData.append(to_json(recipeName, special, recipeBuilding, recipeComponents, recipeOutputs))
 

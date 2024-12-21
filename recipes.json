@@ -19,7 +19,7 @@
             },
             {
                 "Item": "Excited Photonic Matter",
-                "Per-minute": 4.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -29,7 +29,7 @@
             },
             {
                 "Item": "Dark Matter Residue",
-                "Per-minute": 4.0
+                "Per-minute": 100.0
             }
         ]
     },
@@ -45,7 +45,7 @@
             },
             {
                 "Item": "Quickwire",
-                "Per-minute": 25.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -89,11 +89,11 @@
             },
             {
                 "Item": "Heavy Modular Frame",
-                "Per-minute": 5.0
+                "Per-minute": 1.0
             },
             {
                 "Item": "Computer",
-                "Per-minute": 5.0
+                "Per-minute": 2.0
             }
         ],
         "Outputs": [
@@ -115,7 +115,7 @@
             },
             {
                 "Item": "Copper Ingot",
-                "Per-minute": 30.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -155,15 +155,15 @@
             },
             {
                 "Item": "Power Shard",
-                "Per-minute": 12.5
+                "Per-minute": 7.5
             },
             {
                 "Item": "Superposition Oscillator",
-                "Per-minute": 12.5
+                "Per-minute": 7.5
             },
             {
                 "Item": "Excited Photonic Matter",
-                "Per-minute": 12.5
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -173,7 +173,7 @@
             },
             {
                 "Item": "Dark Matter Residue",
-                "Per-minute": 2.5
+                "Per-minute": 60.0
             }
         ]
     },
@@ -189,7 +189,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 120.0
+                "Per-minute": 180.0
             }
         ],
         "Outputs": [
@@ -199,7 +199,7 @@
             },
             {
                 "Item": "Silica",
-                "Per-minute": 120.0
+                "Per-minute": 50.0
             }
         ]
     },
@@ -233,7 +233,7 @@
             },
             {
                 "Item": "Silica",
-                "Per-minute": 90.0
+                "Per-minute": 75.0
             }
         ],
         "Outputs": [
@@ -255,7 +255,7 @@
             },
             {
                 "Item": "Coal",
-                "Per-minute": 240.0
+                "Per-minute": 120.0
             }
         ],
         "Outputs": [
@@ -265,7 +265,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 360.0
+                "Per-minute": 120.0
             }
         ]
     },
@@ -281,7 +281,7 @@
             },
             {
                 "Item": "Supercomputer",
-                "Per-minute": 1.5
+                "Per-minute": 0.75
             }
         ],
         "Outputs": [
@@ -303,7 +303,7 @@
             },
             {
                 "Item": "Cable",
-                "Per-minute": 2.5
+                "Per-minute": 50.0
             }
         ],
         "Outputs": [
@@ -325,15 +325,15 @@
             },
             {
                 "Item": "Singularity Cell",
-                "Per-minute": 1.0
+                "Per-minute": 5.0
             },
             {
                 "Item": "Superposition Oscillator",
-                "Per-minute": 1.0
+                "Per-minute": 2.0
             },
             {
                 "Item": "Dark Matter Crystal",
-                "Per-minute": 1.0
+                "Per-minute": 40.0
             }
         ],
         "Outputs": [
@@ -355,11 +355,11 @@
             },
             {
                 "Item": "Alumina Solution",
-                "Per-minute": 50.0
+                "Per-minute": 40.0
             },
             {
                 "Item": "Aluminum Casing",
-                "Per-minute": 50.0
+                "Per-minute": 20.0
             }
         ],
         "Outputs": [
@@ -369,7 +369,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 20.0
+                "Per-minute": 30.0
             }
         ]
     },
@@ -385,7 +385,7 @@
             },
             {
                 "Item": "Caterium Ore",
-                "Per-minute": 10.0
+                "Per-minute": 150.0
             }
         ],
         "Outputs": [
@@ -407,7 +407,7 @@
             },
             {
                 "Item": "Copper Ore",
-                "Per-minute": 10.0
+                "Per-minute": 180.0
             }
         ],
         "Outputs": [
@@ -429,11 +429,11 @@
             },
             {
                 "Item": "Ficsite Trigon",
-                "Per-minute": 0.5
+                "Per-minute": 40.0
             },
             {
                 "Item": "Water",
-                "Per-minute": 0.5
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -549,11 +549,11 @@
             },
             {
                 "Item": "Modular Frame",
-                "Per-minute": 20.0
+                "Per-minute": 3.0
             },
             {
                 "Item": "Rotor",
-                "Per-minute": 20.0
+                "Per-minute": 3.0
             }
         ],
         "Outputs": [
@@ -629,11 +629,11 @@
             },
             {
                 "Item": "Candy Cane",
-                "Per-minute": 1.5
+                "Per-minute": 18.75
             },
             {
                 "Item": "FICSMAS Gift",
-                "Per-minute": 1.5
+                "Per-minute": 11.25
             }
         ],
         "Outputs": [
@@ -673,7 +673,7 @@
             },
             {
                 "Item": "Copper Ore",
-                "Per-minute": 10.0
+                "Per-minute": 150.0
             }
         ],
         "Outputs": [
@@ -695,7 +695,7 @@
             },
             {
                 "Item": "Raw Quartz",
-                "Per-minute": 10.0
+                "Per-minute": 120.0
             }
         ],
         "Outputs": [
@@ -717,15 +717,15 @@
             },
             {
                 "Item": "Iron Rod",
-                "Per-minute": 5.0
+                "Per-minute": 25.0
             },
             {
                 "Item": "Screw",
-                "Per-minute": 5.0
+                "Per-minute": 160.0
             },
             {
                 "Item": "Cable",
-                "Per-minute": 5.0
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -747,7 +747,7 @@
             },
             {
                 "Item": "Plastic",
-                "Per-minute": 15.0
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -769,7 +769,7 @@
             },
             {
                 "Item": "Smokeless Powder",
-                "Per-minute": 7.5
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -791,7 +791,7 @@
             },
             {
                 "Item": "Iron Ore",
-                "Per-minute": 10.0
+                "Per-minute": 180.0
             }
         ],
         "Outputs": [
@@ -813,7 +813,7 @@
             },
             {
                 "Item": "Limestone",
-                "Per-minute": 10.0
+                "Per-minute": 360.0
             }
         ],
         "Outputs": [
@@ -835,11 +835,11 @@
             },
             {
                 "Item": "Cable",
-                "Per-minute": 10.0
+                "Per-minute": 20.0
             },
             {
                 "Item": "Plastic",
-                "Per-minute": 10.0
+                "Per-minute": 40.0
             }
         ],
         "Outputs": [
@@ -883,11 +883,11 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 12.0
+                "Per-minute": 30.0
             },
             {
                 "Item": "Nitrogen Gas",
-                "Per-minute": 12.0
+                "Per-minute": 150.0
             }
         ],
         "Outputs": [
@@ -949,7 +949,7 @@
             },
             {
                 "Item": "Raw Quartz",
-                "Per-minute": 10.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -971,7 +971,7 @@
             },
             {
                 "Item": "Sulfur",
-                "Per-minute": 10.0
+                "Per-minute": 120.0
             }
         ],
         "Outputs": [
@@ -1029,11 +1029,11 @@
             },
             {
                 "Item": "Cable",
-                "Per-minute": 18.0
+                "Per-minute": 14.0
             },
             {
                 "Item": "Reinforced Iron Plate",
-                "Per-minute": 18.0
+                "Per-minute": 2.5
             }
         ],
         "Outputs": [
@@ -1055,7 +1055,7 @@
             },
             {
                 "Item": "Dark Matter Residue",
-                "Per-minute": 30.0
+                "Per-minute": 150.0
             }
         ],
         "Outputs": [
@@ -1113,7 +1113,7 @@
             },
             {
                 "Item": "AI Limiter",
-                "Per-minute": 6.0
+                "Per-minute": 4.0
             }
         ],
         "Outputs": [
@@ -1171,7 +1171,7 @@
             },
             {
                 "Item": "Concrete",
-                "Per-minute": 18.0
+                "Per-minute": 36.0
             }
         ],
         "Outputs": [
@@ -1193,7 +1193,7 @@
             },
             {
                 "Item": "Concrete",
-                "Per-minute": 10.0
+                "Per-minute": 20.0
             }
         ],
         "Outputs": [
@@ -1215,11 +1215,11 @@
             },
             {
                 "Item": "Concrete",
-                "Per-minute": 50.0
+                "Per-minute": 15.0
             },
             {
                 "Item": "Sulfuric Acid",
-                "Per-minute": 50.0
+                "Per-minute": 40.0
             }
         ],
         "Outputs": [
@@ -1229,7 +1229,7 @@
             },
             {
                 "Item": "Sulfuric Acid",
-                "Per-minute": 25.0
+                "Per-minute": 10.0
             }
         ]
     },
@@ -1242,7 +1242,7 @@
         "Outputs": [
             {
                 "Item": "Excited Photonic Matter",
-                "Per-minute": null
+                "Per-minute": 200.0
             }
         ]
     },
@@ -1302,7 +1302,7 @@
             },
             {
                 "Item": "FICSMAS Ornament Bundle",
-                "Per-minute": 15.0
+                "Per-minute": 6.0
             }
         ],
         "Outputs": [
@@ -1364,7 +1364,7 @@
             },
             {
                 "Item": "Candy Cane",
-                "Per-minute": 5.0
+                "Per-minute": 20.0
             }
         ],
         "Outputs": [
@@ -1386,7 +1386,7 @@
             },
             {
                 "Item": "Biomass",
-                "Per-minute": 15.0
+                "Per-minute": 75.0
             }
         ],
         "Outputs": [
@@ -1412,7 +1412,7 @@
             },
             {
                 "Item": "Rotor",
-                "Per-minute": 12.0
+                "Per-minute": 6.0
             }
         ],
         "Outputs": [
@@ -1434,7 +1434,7 @@
             },
             {
                 "Item": "FICSMAS Bow",
-                "Per-minute": 10.0
+                "Per-minute": 7.5
             }
         ],
         "Outputs": [
@@ -1456,7 +1456,7 @@
             },
             {
                 "Item": "Aluminum Ingot",
-                "Per-minute": 60.0
+                "Per-minute": 120.0
             }
         ],
         "Outputs": [
@@ -1478,7 +1478,7 @@
             },
             {
                 "Item": "Caterium Ingot",
-                "Per-minute": 45.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -1500,7 +1500,7 @@
             },
             {
                 "Item": "Iron Ingot",
-                "Per-minute": 40.0
+                "Per-minute": 240.0
             }
         ],
         "Outputs": [
@@ -1544,7 +1544,7 @@
             },
             {
                 "Item": "Dark Matter Residue",
-                "Per-minute": 10.0
+                "Per-minute": 200.0
             }
         ],
         "Outputs": [
@@ -1570,11 +1570,11 @@
             },
             {
                 "Item": "Ficsite Trigon",
-                "Per-minute": 5.0
+                "Per-minute": 100.0
             },
             {
                 "Item": "Excited Photonic Matter",
-                "Per-minute": 5.0
+                "Per-minute": 50.0
             }
         ],
         "Outputs": [
@@ -1584,7 +1584,7 @@
             },
             {
                 "Item": "Dark Matter Residue",
-                "Per-minute": 2.5
+                "Per-minute": 50.0
             }
         ]
     },
@@ -1606,7 +1606,7 @@
             },
             {
                 "Item": "Polymer Resin",
-                "Per-minute": 40.0
+                "Per-minute": 30.0
             }
         ]
     },
@@ -1622,11 +1622,11 @@
             },
             {
                 "Item": "Aluminum Casing",
-                "Per-minute": 1.5
+                "Per-minute": 75.0
             },
             {
                 "Item": "Nitrogen Gas",
-                "Per-minute": 1.5
+                "Per-minute": 37.5
             }
         ],
         "Outputs": [
@@ -1648,7 +1648,7 @@
             },
             {
                 "Item": "Coal",
-                "Per-minute": 15.0
+                "Per-minute": 30.0
             },
             {
                 "Item": "Iron Plate",
@@ -1674,11 +1674,11 @@
             },
             {
                 "Item": "Copper Sheet",
-                "Per-minute": 50.0
+                "Per-minute": 10.0
             },
             {
                 "Item": "Steel Pipe",
-                "Per-minute": 50.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -1700,7 +1700,7 @@
             },
             {
                 "Item": "Biomass",
-                "Per-minute": 5.0
+                "Per-minute": 50.0
             }
         ],
         "Outputs": [
@@ -1722,11 +1722,11 @@
             },
             {
                 "Item": "Iron Rod",
-                "Per-minute": 45.0
+                "Per-minute": 12.0
             },
             {
                 "Item": "Rotor",
-                "Per-minute": 45.0
+                "Per-minute": 6.0
             }
         ],
         "Outputs": [
@@ -1796,7 +1796,7 @@
             },
             {
                 "Item": "Copper Sheet",
-                "Per-minute": 37.5
+                "Per-minute": 22.5
             }
         ],
         "Outputs": [
@@ -1818,7 +1818,7 @@
             },
             {
                 "Item": "Steel Pipe",
-                "Per-minute": 10.0
+                "Per-minute": 40.0
             },
             {
                 "Item": "Encased Industrial Beam",
@@ -1826,7 +1826,7 @@
             },
             {
                 "Item": "Screw",
-                "Per-minute": 10.0
+                "Per-minute": 240.0
             }
         ],
         "Outputs": [
@@ -1848,11 +1848,11 @@
             },
             {
                 "Item": "Cable",
-                "Per-minute": 210.0
+                "Per-minute": 37.5
             },
             {
                 "Item": "Circuit Board",
-                "Per-minute": 210.0
+                "Per-minute": 3.75
             }
         ],
         "Outputs": [
@@ -1892,7 +1892,7 @@
             },
             {
                 "Item": "High-Speed Connector",
-                "Per-minute": 50.0
+                "Per-minute": 2.5
             }
         ],
         "Outputs": [
@@ -1914,7 +1914,7 @@
             },
             {
                 "Item": "Heavy Modular Frame",
-                "Per-minute": 4.0
+                "Per-minute": 2.0
             },
             {
                 "Item": "Computer",
@@ -1922,7 +1922,7 @@
             },
             {
                 "Item": "Alclad Aluminum Sheet",
-                "Per-minute": 4.0
+                "Per-minute": 20.0
             }
         ],
         "Outputs": [
@@ -1944,7 +1944,7 @@
             },
             {
                 "Item": "Quickwire",
-                "Per-minute": 3.75
+                "Per-minute": 30.0
             },
             {
                 "Item": "Aluminum Casing",
@@ -1970,7 +1970,7 @@
             },
             {
                 "Item": "Power Shard",
-                "Per-minute": 40.0
+                "Per-minute": 2.5
             }
         ],
         "Outputs": [
@@ -1980,7 +1980,7 @@
             },
             {
                 "Item": "Compacted Coal",
-                "Per-minute": 40.0
+                "Per-minute": 5.0
             }
         ]
     },
@@ -2036,7 +2036,7 @@
             },
             {
                 "Item": "Limestone",
-                "Per-minute": 10.0
+                "Per-minute": 240.0
             }
         ],
         "Outputs": [
@@ -2112,15 +2112,15 @@
             },
             {
                 "Item": "Steel Pipe",
-                "Per-minute": 5.0
+                "Per-minute": 10.0
             },
             {
                 "Item": "Iron Plate",
-                "Per-minute": 5.0
+                "Per-minute": 25.0
             },
             {
                 "Item": "Wire",
-                "Per-minute": 5.0
+                "Per-minute": 50.0
             }
         ],
         "Outputs": [
@@ -2142,7 +2142,7 @@
             },
             {
                 "Item": "Sulfur",
-                "Per-minute": 10.0
+                "Per-minute": 20.0
             }
         ],
         "Outputs": [
@@ -2164,7 +2164,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 90.0
+                "Per-minute": 45.0
             }
         ],
         "Outputs": [
@@ -2186,7 +2186,7 @@
             },
             {
                 "Item": "Electromagnetic Control Rod",
-                "Per-minute": 2.5
+                "Per-minute": 1.0
             }
         ],
         "Outputs": [
@@ -2208,7 +2208,7 @@
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 2.0
+                "Per-minute": 15.0
             },
             {
                 "Item": "Smart Plating",
@@ -2234,7 +2234,7 @@
             },
             {
                 "Item": "Iron Rod",
-                "Per-minute": 3.0
+                "Per-minute": 12.0
             }
         ],
         "Outputs": [
@@ -2278,15 +2278,15 @@
             },
             {
                 "Item": "Supercomputer",
-                "Per-minute": 15.0
+                "Per-minute": 3.0
             },
             {
                 "Item": "Ficsite Trigon",
-                "Per-minute": 15.0
+                "Per-minute": 45.0
             },
             {
                 "Item": "Excited Photonic Matter",
-                "Per-minute": 15.0
+                "Per-minute": 75.0
             }
         ],
         "Outputs": [
@@ -2296,7 +2296,7 @@
             },
             {
                 "Item": "Dark Matter Residue",
-                "Per-minute": 3.0
+                "Per-minute": 75.0
             }
         ]
     },
@@ -2312,11 +2312,11 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 120.0
+                "Per-minute": 30.0
             },
             {
                 "Item": "Iron Plate",
-                "Per-minute": 120.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -2338,7 +2338,7 @@
             },
             {
                 "Item": "Bauxite",
-                "Per-minute": 10.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -2360,7 +2360,7 @@
             },
             {
                 "Item": "Caterium Ore",
-                "Per-minute": 10.0
+                "Per-minute": 120.0
             }
         ],
         "Outputs": [
@@ -2404,11 +2404,11 @@
             },
             {
                 "Item": "Steel Beam",
-                "Per-minute": 0.75
+                "Per-minute": 7.5
             },
             {
                 "Item": "Cable",
-                "Per-minute": 0.75
+                "Per-minute": 37.5
             }
         ],
         "Outputs": [
@@ -2430,15 +2430,15 @@
             },
             {
                 "Item": "Silica",
-                "Per-minute": 37.5
+                "Per-minute": 25.0
             },
             {
                 "Item": "Nitric Acid",
-                "Per-minute": 37.5
+                "Per-minute": 15.0
             },
             {
                 "Item": "Sulfuric Acid",
-                "Per-minute": 37.5
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -2448,7 +2448,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 50.0
+                "Per-minute": 15.0
             }
         ]
     },
@@ -2464,7 +2464,7 @@
             },
             {
                 "Item": "Pressure Conversion Cube",
-                "Per-minute": 100.0
+                "Per-minute": 0.5
             }
         ],
         "Outputs": [
@@ -2486,15 +2486,15 @@
             },
             {
                 "Item": "Encased Uranium Cell",
-                "Per-minute": 2.5
+                "Per-minute": 10.0
             },
             {
                 "Item": "Smokeless Powder",
-                "Per-minute": 2.5
+                "Per-minute": 5.0
             },
             {
                 "Item": "AI Limiter",
-                "Per-minute": 2.5
+                "Per-minute": 3.0
             }
         ],
         "Outputs": [
@@ -2516,11 +2516,11 @@
             },
             {
                 "Item": "Paleberry",
-                "Per-minute": 3.0
+                "Per-minute": 6.0
             },
             {
                 "Item": "Beryl Nut",
-                "Per-minute": 3.0
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -2542,11 +2542,11 @@
             },
             {
                 "Item": "Wire",
-                "Per-minute": 6.0
+                "Per-minute": 30.0
             },
             {
                 "Item": "Screw",
-                "Per-minute": 6.0
+                "Per-minute": 75.0
             }
         ],
         "Outputs": [
@@ -2634,7 +2634,7 @@
             },
             {
                 "Item": "Empty Fluid Tank",
-                "Per-minute": 80.0
+                "Per-minute": 40.0
             }
         ],
         "Outputs": [
@@ -2700,7 +2700,7 @@
             },
             {
                 "Item": "Empty Fluid Tank",
-                "Per-minute": 240.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -2744,7 +2744,7 @@
             },
             {
                 "Item": "Empty Fluid Tank",
-                "Per-minute": 120.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -2832,7 +2832,7 @@
             },
             {
                 "Item": "Cable",
-                "Per-minute": 30.0
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -2878,7 +2878,7 @@
             },
             {
                 "Item": "Heavy Oil Residue",
-                "Per-minute": 20.0
+                "Per-minute": 10.0
             }
         ]
     },
@@ -2894,15 +2894,15 @@
             },
             {
                 "Item": "Steel Beam",
-                "Per-minute": 7.5
+                "Per-minute": 4.5
             },
             {
                 "Item": "Electromagnetic Control Rod",
-                "Per-minute": 7.5
+                "Per-minute": 1.5
             },
             {
                 "Item": "Heat Sink",
-                "Per-minute": 7.5
+                "Per-minute": 2.5
             }
         ],
         "Outputs": [
@@ -2924,7 +2924,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 0.1
+                "Per-minute": 240.0
             }
         ],
         "Outputs": [
@@ -2946,7 +2946,7 @@
             },
             {
                 "Item": "Uranium Waste",
-                "Per-minute": 100.0
+                "Per-minute": 25.0
             }
         ],
         "Outputs": [
@@ -2968,7 +2968,7 @@
             },
             {
                 "Item": "Iron Rod",
-                "Per-minute": 3.0
+                "Per-minute": 6.0
             }
         ],
         "Outputs": [
@@ -3044,7 +3044,7 @@
             },
             {
                 "Item": "Radio Control Unit",
-                "Per-minute": 1.0
+                "Per-minute": 2.0
             }
         ],
         "Outputs": [
@@ -3066,7 +3066,7 @@
             },
             {
                 "Item": "Beryl Nut",
-                "Per-minute": 3.0
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -3088,7 +3088,7 @@
             },
             {
                 "Item": "Crystal Oscillator",
-                "Per-minute": 5.0
+                "Per-minute": 1.0
             }
         ],
         "Outputs": [
@@ -3146,11 +3146,11 @@
             },
             {
                 "Item": "Crystal Oscillator",
-                "Per-minute": 40.0
+                "Per-minute": 1.25
             },
             {
                 "Item": "Computer",
-                "Per-minute": 40.0
+                "Per-minute": 2.5
             }
         ],
         "Outputs": [
@@ -3172,7 +3172,7 @@
             },
             {
                 "Item": "Bauxite",
-                "Per-minute": 10.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -3194,7 +3194,7 @@
             },
             {
                 "Item": "Coal",
-                "Per-minute": 10.0
+                "Per-minute": 240.0
             }
         ],
         "Outputs": [
@@ -3234,11 +3234,11 @@
             },
             {
                 "Item": "Iron Rod",
-                "Per-minute": 6.0
+                "Per-minute": 16.0
             },
             {
                 "Item": "Screw",
-                "Per-minute": 6.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -3278,7 +3278,7 @@
             },
             {
                 "Item": "Screw",
-                "Per-minute": 30.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -3318,7 +3318,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 60.0
+                "Per-minute": 20.0
             }
         ],
         "Outputs": [
@@ -3362,15 +3362,15 @@
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 1.0
+                "Per-minute": 5.0
             },
             {
                 "Item": "Steel Pipe",
-                "Per-minute": 1.0
+                "Per-minute": 12.5
             },
             {
                 "Item": "Screw",
-                "Per-minute": 1.0
+                "Per-minute": 125.0
             }
         ],
         "Outputs": [
@@ -3392,7 +3392,7 @@
             },
             {
                 "Item": "Smokeless Powder",
-                "Per-minute": 15.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -3414,7 +3414,7 @@
             },
             {
                 "Item": "Nitric Acid",
-                "Per-minute": 60.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -3424,7 +3424,7 @@
             },
             {
                 "Item": "Compacted Coal",
-                "Per-minute": 100.0
+                "Per-minute": 10.0
             }
         ]
     },
@@ -3440,7 +3440,7 @@
             },
             {
                 "Item": "Screw",
-                "Per-minute": 20.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -3484,11 +3484,11 @@
             },
             {
                 "Item": "Wire",
-                "Per-minute": 60.0
+                "Per-minute": 50.0
             },
             {
                 "Item": "Steel Pipe",
-                "Per-minute": 60.0
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -3528,7 +3528,7 @@
             },
             {
                 "Item": "Quartz Crystal",
-                "Per-minute": 10.0
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -3568,15 +3568,15 @@
             },
             {
                 "Item": "Dark Matter Crystal",
-                "Per-minute": 1.0
+                "Per-minute": 20.0
             },
             {
                 "Item": "Iron Plate",
-                "Per-minute": 1.0
+                "Per-minute": 100.0
             },
             {
                 "Item": "Concrete",
-                "Per-minute": 1.0
+                "Per-minute": 200.0
             }
         ],
         "Outputs": [
@@ -3620,7 +3620,7 @@
             },
             {
                 "Item": "Heavy Oil Residue",
-                "Per-minute": 20.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -3678,7 +3678,7 @@
             },
             {
                 "Item": "Actual Snow",
-                "Per-minute": 7.5
+                "Per-minute": 5.0
             }
         ],
         "Outputs": [
@@ -3718,7 +3718,7 @@
             },
             {
                 "Item": "Wire",
-                "Per-minute": 15.0
+                "Per-minute": 40.0
             }
         ],
         "Outputs": [
@@ -3816,7 +3816,7 @@
             },
             {
                 "Item": "Quickwire",
-                "Per-minute": 10.0
+                "Per-minute": 50.0
             }
         ],
         "Outputs": [
@@ -3838,7 +3838,7 @@
             },
             {
                 "Item": "Coal",
-                "Per-minute": 10.0
+                "Per-minute": 200.0
             }
         ],
         "Outputs": [
@@ -3860,7 +3860,7 @@
             },
             {
                 "Item": "Iron Ore",
-                "Per-minute": 10.0
+                "Per-minute": 300.0
             }
         ],
         "Outputs": [
@@ -3904,15 +3904,15 @@
             },
             {
                 "Item": "AI Limiter",
-                "Per-minute": 7.5
+                "Per-minute": 3.75
             },
             {
                 "Item": "High-Speed Connector",
-                "Per-minute": 7.5
+                "Per-minute": 5.625
             },
             {
                 "Item": "Plastic",
-                "Per-minute": 7.5
+                "Per-minute": 52.5
             }
         ],
         "Outputs": [
@@ -3934,15 +3934,15 @@
             },
             {
                 "Item": "Crystal Oscillator",
-                "Per-minute": 30.0
+                "Per-minute": 5.0
             },
             {
                 "Item": "Alclad Aluminum Sheet",
-                "Per-minute": 30.0
+                "Per-minute": 45.0
             },
             {
                 "Item": "Excited Photonic Matter",
-                "Per-minute": 30.0
+                "Per-minute": 125.0
             }
         ],
         "Outputs": [
@@ -3952,7 +3952,7 @@
             },
             {
                 "Item": "Dark Matter Residue",
-                "Per-minute": 5.0
+                "Per-minute": 125.0
             }
         ]
     },
@@ -3968,7 +3968,7 @@
             },
             {
                 "Item": "Candy Cane",
-                "Per-minute": 15.0
+                "Per-minute": 7.5
             }
         ],
         "Outputs": [
@@ -3994,11 +3994,11 @@
             },
             {
                 "Item": "Quartz Crystal",
-                "Per-minute": 10.0
+                "Per-minute": 60.0
             },
             {
                 "Item": "Excited Photonic Matter",
-                "Per-minute": 10.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -4008,7 +4008,7 @@
             },
             {
                 "Item": "Dark Matter Residue",
-                "Per-minute": 5.0
+                "Per-minute": 60.0
             }
         ]
     },
@@ -4024,11 +4024,11 @@
             },
             {
                 "Item": "Alien Protein",
-                "Per-minute": 45.0
+                "Per-minute": 3.0
             },
             {
                 "Item": "Bacon Agaric",
-                "Per-minute": 45.0
+                "Per-minute": 3.0
             }
         ],
         "Outputs": [
@@ -4050,15 +4050,15 @@
             },
             {
                 "Item": "Turbo Motor",
-                "Per-minute": 2.5
+                "Per-minute": 1.0
             },
             {
                 "Item": "Cooling System",
-                "Per-minute": 2.5
+                "Per-minute": 3.0
             },
             {
                 "Item": "Fused Modular Frame",
-                "Per-minute": 2.5
+                "Per-minute": 1.0
             }
         ],
         "Outputs": [
@@ -4098,7 +4098,7 @@
             },
             {
                 "Item": "Radio Control Unit",
-                "Per-minute": 7.5
+                "Per-minute": 3.75
             },
             {
                 "Item": "Motor",
@@ -4106,7 +4106,7 @@
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 7.5
+                "Per-minute": 45.0
             }
         ],
         "Outputs": [
@@ -4128,11 +4128,11 @@
             },
             {
                 "Item": "Aluminum Casing",
-                "Per-minute": 125.0
+                "Per-minute": 15.0
             },
             {
                 "Item": "Packaged Turbofuel",
-                "Per-minute": 125.0
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -4154,11 +4154,11 @@
             },
             {
                 "Item": "Aluminum Casing",
-                "Per-minute": 125.0
+                "Per-minute": 15.0
             },
             {
                 "Item": "Turbofuel",
-                "Per-minute": 125.0
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -4252,7 +4252,7 @@
             },
             {
                 "Item": "Empty Fluid Tank",
-                "Per-minute": 80.0
+                "Per-minute": 40.0
             }
         ]
     },
@@ -4318,7 +4318,7 @@
             },
             {
                 "Item": "Empty Fluid Tank",
-                "Per-minute": 240.0
+                "Per-minute": 60.0
             }
         ]
     },
@@ -4362,7 +4362,7 @@
             },
             {
                 "Item": "Empty Fluid Tank",
-                "Per-minute": 120.0
+                "Per-minute": 60.0
             }
         ]
     },
@@ -4444,11 +4444,11 @@
             },
             {
                 "Item": "Encased Industrial Beam",
-                "Per-minute": 20.0
+                "Per-minute": 1.2
             },
             {
                 "Item": "Electromagnetic Control Rod",
-                "Per-minute": 20.0
+                "Per-minute": 2.0
             }
         ],
         "Outputs": [
@@ -4470,7 +4470,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 0.2
+                "Per-minute": 240.0
             }
         ],
         "Outputs": [
@@ -4492,7 +4492,7 @@
             },
             {
                 "Item": "Bauxite",
-                "Per-minute": 10.0
+                "Per-minute": 480.0
             }
         ],
         "Outputs": [
@@ -4514,7 +4514,7 @@
             },
             {
                 "Item": "Steel Beam",
-                "Per-minute": 2.5
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -4536,7 +4536,7 @@
             },
             {
                 "Item": "Paleberry",
-                "Per-minute": 30.0
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -4576,15 +4576,15 @@
             },
             {
                 "Item": "Modular Frame",
-                "Per-minute": 1.5
+                "Per-minute": 3.75
             },
             {
                 "Item": "Iron Rod",
-                "Per-minute": 1.5
+                "Per-minute": 18.75
             },
             {
                 "Item": "Wire",
-                "Per-minute": 1.5
+                "Per-minute": 375.0
             }
         ],
         "Outputs": [
@@ -4606,15 +4606,15 @@
             },
             {
                 "Item": "Reinforced Iron Plate",
-                "Per-minute": 15.0
+                "Per-minute": 3.0
             },
             {
                 "Item": "Cable",
-                "Per-minute": 15.0
+                "Per-minute": 22.5
             },
             {
                 "Item": "Wire",
-                "Per-minute": 15.0
+                "Per-minute": 75.0
             }
         ],
         "Outputs": [
@@ -4636,15 +4636,15 @@
             },
             {
                 "Item": "Quickwire",
-                "Per-minute": 1.5
+                "Per-minute": 45.0
             },
             {
                 "Item": "Iron Rod",
-                "Per-minute": 1.5
+                "Per-minute": 4.5
             },
             {
                 "Item": "Cable",
-                "Per-minute": 1.5
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -4666,7 +4666,7 @@
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 11.25
+                "Per-minute": 3.75
             }
         ],
         "Outputs": [
@@ -4688,7 +4688,7 @@
             },
             {
                 "Item": "Copper Ingot",
-                "Per-minute": 150.0
+                "Per-minute": 75.0
             }
         ],
         "Outputs": [
@@ -4768,11 +4768,11 @@
             },
             {
                 "Item": "Wire",
-                "Per-minute": 3.75
+                "Per-minute": 75.0
             },
             {
                 "Item": "High-Speed Connector",
-                "Per-minute": 3.75
+                "Per-minute": 1.875
             }
         ],
         "Outputs": [
@@ -4794,7 +4794,7 @@
             },
             {
                 "Item": "Limestone",
-                "Per-minute": 25.0
+                "Per-minute": 40.0
             }
         ],
         "Outputs": [
@@ -4834,7 +4834,7 @@
             },
             {
                 "Item": "Screw",
-                "Per-minute": 7.5
+                "Per-minute": 140.0
             }
         ],
         "Outputs": [
@@ -4856,7 +4856,7 @@
             },
             {
                 "Item": "Screw",
-                "Per-minute": 90.0
+                "Per-minute": 250.0
             }
         ],
         "Outputs": [
@@ -4896,7 +4896,7 @@
             },
             {
                 "Item": "Quickwire",
-                "Per-minute": 12.5
+                "Per-minute": 37.5
             }
         ],
         "Outputs": [
@@ -4918,11 +4918,11 @@
             },
             {
                 "Item": "Quickwire",
-                "Per-minute": 15.0
+                "Per-minute": 52.5
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 15.0
+                "Per-minute": 22.5
             }
         ],
         "Outputs": [
@@ -4980,7 +4980,7 @@
             },
             {
                 "Item": "Limestone",
-                "Per-minute": 22.5
+                "Per-minute": 37.5
             }
         ],
         "Outputs": [
@@ -5002,15 +5002,15 @@
             },
             {
                 "Item": "Alclad Aluminum Sheet",
-                "Per-minute": 45.0
+                "Per-minute": 52.5
             },
             {
                 "Item": "Plastic",
-                "Per-minute": 45.0
+                "Per-minute": 60.0
             },
             {
                 "Item": "Wire",
-                "Per-minute": 45.0
+                "Per-minute": 90.0
             }
         ],
         "Outputs": [
@@ -5032,7 +5032,7 @@
             },
             {
                 "Item": "Limestone",
-                "Per-minute": 240.0
+                "Per-minute": 480.0
             }
         ],
         "Outputs": [
@@ -5054,7 +5054,7 @@
             },
             {
                 "Item": "Heavy Oil Residue",
-                "Per-minute": 37.5
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -5076,7 +5076,7 @@
             },
             {
                 "Item": "Copper Sheet",
-                "Per-minute": 30.0
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -5098,7 +5098,7 @@
             },
             {
                 "Item": "Plastic",
-                "Per-minute": 37.5
+                "Per-minute": 7.5
             }
         ],
         "Outputs": [
@@ -5164,7 +5164,7 @@
             },
             {
                 "Item": "Compacted Coal",
-                "Per-minute": 5.0
+                "Per-minute": 2.5
             }
         ],
         "Outputs": [
@@ -5186,11 +5186,11 @@
             },
             {
                 "Item": "Motor",
-                "Per-minute": 10.0
+                "Per-minute": 2.5
             },
             {
                 "Item": "Nitrogen Gas",
-                "Per-minute": 10.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -5234,7 +5234,7 @@
             },
             {
                 "Item": "Screw",
-                "Per-minute": 22.5
+                "Per-minute": 195.0
             }
         ],
         "Outputs": [
@@ -5256,7 +5256,7 @@
             },
             {
                 "Item": "Crystal Oscillator",
-                "Per-minute": 5.0
+                "Per-minute": 1.66667
             }
         ],
         "Outputs": [
@@ -5296,7 +5296,7 @@
             },
             {
                 "Item": "Dark Matter Residue",
-                "Per-minute": 30.0
+                "Per-minute": 150.0
             }
         ],
         "Outputs": [
@@ -5318,7 +5318,7 @@
             },
             {
                 "Item": "Dark Matter Crystal",
-                "Per-minute": 240.0
+                "Per-minute": 80.0
             }
         ],
         "Outputs": [
@@ -5328,7 +5328,7 @@
             },
             {
                 "Item": "Compacted Coal",
-                "Per-minute": 200.0
+                "Per-minute": 40.0
             }
         ]
     },
@@ -5344,7 +5344,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 50.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -5366,7 +5366,7 @@
             },
             {
                 "Item": "Packaged Water",
-                "Per-minute": 30.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -5388,11 +5388,11 @@
             },
             {
                 "Item": "Limestone",
-                "Per-minute": 120.0
+                "Per-minute": 50.0
             },
             {
                 "Item": "Water",
-                "Per-minute": 120.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -5402,7 +5402,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 270.0
+                "Per-minute": 80.0
             }
         ]
     },
@@ -5418,7 +5418,7 @@
             },
             {
                 "Item": "Rotor",
-                "Per-minute": 3.75
+                "Per-minute": 7.5
             }
         ],
         "Outputs": [
@@ -5440,7 +5440,7 @@
             },
             {
                 "Item": "Petroleum Coke",
-                "Per-minute": 180.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -5450,7 +5450,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 300.0
+                "Per-minute": 105.0
             }
         ]
     },
@@ -5466,7 +5466,7 @@
             },
             {
                 "Item": "Petroleum Coke",
-                "Per-minute": 20.0
+                "Per-minute": 40.0
             }
         ],
         "Outputs": [
@@ -5488,7 +5488,7 @@
             },
             {
                 "Item": "High-Speed Connector",
-                "Per-minute": 8.0
+                "Per-minute": 4.0
             }
         ],
         "Outputs": [
@@ -5510,7 +5510,7 @@
             },
             {
                 "Item": "Concrete",
-                "Per-minute": 24.0
+                "Per-minute": 20.0
             }
         ],
         "Outputs": [
@@ -5536,7 +5536,7 @@
             },
             {
                 "Item": "Nitric Acid",
-                "Per-minute": 25.0
+                "Per-minute": 15.0
             },
             {
                 "Item": "Sulfuric Acid",
@@ -5550,7 +5550,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 100.0
+                "Per-minute": 40.0
             }
         ]
     },
@@ -5566,7 +5566,7 @@
             },
             {
                 "Item": "Compacted Coal",
-                "Per-minute": 7.5
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -5588,7 +5588,7 @@
             },
             {
                 "Item": "Limestone",
-                "Per-minute": 15.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -5610,11 +5610,11 @@
             },
             {
                 "Item": "Steel Beam",
-                "Per-minute": 3.75
+                "Per-minute": 22.5
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 3.75
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -5636,7 +5636,7 @@
             },
             {
                 "Item": "Coal",
-                "Per-minute": 75.0
+                "Per-minute": 36.0
             }
         ],
         "Outputs": [
@@ -5658,7 +5658,7 @@
             },
             {
                 "Item": "Copper Ingot",
-                "Per-minute": 7.5
+                "Per-minute": 37.5
             }
         ],
         "Outputs": [
@@ -5680,7 +5680,7 @@
             },
             {
                 "Item": "Caterium Ingot",
-                "Per-minute": 12.0
+                "Per-minute": 3.0
             }
         ],
         "Outputs": [
@@ -5724,15 +5724,15 @@
             },
             {
                 "Item": "Aluminum Ingot",
-                "Per-minute": 3.0
+                "Per-minute": 150.0
             },
             {
                 "Item": "Nitric Acid",
-                "Per-minute": 3.0
+                "Per-minute": 24.0
             },
             {
                 "Item": "Fuel",
-                "Per-minute": 3.0
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -5754,15 +5754,15 @@
             },
             {
                 "Item": "Encased Industrial Beam",
-                "Per-minute": 7.5
+                "Per-minute": 9.375
             },
             {
                 "Item": "Steel Pipe",
-                "Per-minute": 7.5
+                "Per-minute": 33.75
             },
             {
                 "Item": "Concrete",
-                "Per-minute": 7.5
+                "Per-minute": 20.625
             }
         ],
         "Outputs": [
@@ -5784,15 +5784,15 @@
             },
             {
                 "Item": "Encased Industrial Beam",
-                "Per-minute": 18.75
+                "Per-minute": 11.25
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 18.75
+                "Per-minute": 75.0
             },
             {
                 "Item": "Screw",
-                "Per-minute": 18.75
+                "Per-minute": 390.0
             }
         ],
         "Outputs": [
@@ -5820,7 +5820,7 @@
             },
             {
                 "Item": "Polymer Resin",
-                "Per-minute": 40.0
+                "Per-minute": 20.0
             }
         ]
     },
@@ -5836,7 +5836,7 @@
             },
             {
                 "Item": "Silica",
-                "Per-minute": 25.0
+                "Per-minute": 15.0
             },
             {
                 "Item": "Sulfur",
@@ -5844,7 +5844,7 @@
             },
             {
                 "Item": "Quickwire",
-                "Per-minute": 25.0
+                "Per-minute": 75.0
             }
         ],
         "Outputs": [
@@ -5866,7 +5866,7 @@
             },
             {
                 "Item": "Aluminum Casing",
-                "Per-minute": 75.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -5888,15 +5888,15 @@
             },
             {
                 "Item": "Coal",
-                "Per-minute": 150.0
+                "Per-minute": 100.0
             },
             {
                 "Item": "Sulfuric Acid",
-                "Per-minute": 150.0
+                "Per-minute": 50.0
             },
             {
                 "Item": "Water",
-                "Per-minute": 150.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -5906,7 +5906,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 300.0
+                "Per-minute": 50.0
             }
         ]
     },
@@ -5922,7 +5922,7 @@
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 45.0
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -5944,11 +5944,11 @@
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 18.75
+                "Per-minute": 13.125
             },
             {
                 "Item": "AI Limiter",
-                "Per-minute": 18.75
+                "Per-minute": 1.875
             }
         ],
         "Outputs": [
@@ -5970,7 +5970,7 @@
             },
             {
                 "Item": "Copper Ore",
-                "Per-minute": 40.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -6028,7 +6028,7 @@
             },
             {
                 "Item": "Sulfuric Acid",
-                "Per-minute": 54.0
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -6050,7 +6050,7 @@
             },
             {
                 "Item": "Sulfuric Acid",
-                "Per-minute": 45.0
+                "Per-minute": 25.0
             }
         ],
         "Outputs": [
@@ -6072,7 +6072,7 @@
             },
             {
                 "Item": "Sulfuric Acid",
-                "Per-minute": 50.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -6094,7 +6094,7 @@
             },
             {
                 "Item": "Concrete",
-                "Per-minute": 120.0
+                "Per-minute": 80.0
             }
         ],
         "Outputs": [
@@ -6116,7 +6116,7 @@
             },
             {
                 "Item": "Concrete",
-                "Per-minute": 50.0
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -6138,7 +6138,7 @@
             },
             {
                 "Item": "Nitrogen Gas",
-                "Per-minute": 100.0
+                "Per-minute": 75.0
             },
             {
                 "Item": "Sulfur",
@@ -6146,7 +6146,7 @@
             },
             {
                 "Item": "Coal",
-                "Per-minute": 100.0
+                "Per-minute": 50.0
             }
         ],
         "Outputs": [
@@ -6156,7 +6156,7 @@
             },
             {
                 "Item": "Compacted Coal",
-                "Per-minute": 150.0
+                "Per-minute": 25.0
             }
         ]
     },
@@ -6230,7 +6230,7 @@
             },
             {
                 "Item": "Quartz Crystal",
-                "Per-minute": 120.0
+                "Per-minute": 45.0
             }
         ],
         "Outputs": [
@@ -6252,7 +6252,7 @@
             },
             {
                 "Item": "Plastic",
-                "Per-minute": 120.0
+                "Per-minute": 28.0
             }
         ],
         "Outputs": [
@@ -6278,7 +6278,7 @@
             },
             {
                 "Item": "Plastic",
-                "Per-minute": 2.5
+                "Per-minute": 7.5
             }
         ],
         "Outputs": [
@@ -6300,7 +6300,7 @@
             },
             {
                 "Item": "Pressure Conversion Cube",
-                "Per-minute": 10.0
+                "Per-minute": 0.5
             }
         ],
         "Outputs": [
@@ -6350,7 +6350,7 @@
             },
             {
                 "Item": "Heavy Oil Residue",
-                "Per-minute": 130.0
+                "Per-minute": 20.0
             }
         ]
     },
@@ -6406,7 +6406,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 15.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -6428,7 +6428,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 35.0
+                "Per-minute": 20.0
             }
         ],
         "Outputs": [
@@ -6450,7 +6450,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 67.5
+                "Per-minute": 37.5
             }
         ],
         "Outputs": [
@@ -6472,7 +6472,7 @@
             },
             {
                 "Item": "Nitric Acid",
-                "Per-minute": 120.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -6482,7 +6482,7 @@
             },
             {
                 "Item": "Dissolved Silica",
-                "Per-minute": 75.0
+                "Per-minute": 60.0
             }
         ]
     },
@@ -6498,7 +6498,7 @@
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 7.5
+                "Per-minute": 5.0
             }
         ],
         "Outputs": [
@@ -6520,7 +6520,7 @@
             },
             {
                 "Item": "Quickwire",
-                "Per-minute": 16.0
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -6542,11 +6542,11 @@
             },
             {
                 "Item": "High-Speed Connector",
-                "Per-minute": 15.0
+                "Per-minute": 7.5
             },
             {
                 "Item": "Quartz Crystal",
-                "Per-minute": 15.0
+                "Per-minute": 45.0
             }
         ],
         "Outputs": [
@@ -6568,15 +6568,15 @@
             },
             {
                 "Item": "Circuit Board",
-                "Per-minute": 1.5
+                "Per-minute": 15.0
             },
             {
                 "Item": "Aluminum Casing",
-                "Per-minute": 1.5
+                "Per-minute": 90.0
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 1.5
+                "Per-minute": 45.0
             }
         ],
         "Outputs": [
@@ -6646,7 +6646,7 @@
             },
             {
                 "Item": "Crystal Oscillator",
-                "Per-minute": 3.75
+                "Per-minute": 1.25
             }
         ],
         "Outputs": [
@@ -6668,7 +6668,7 @@
             },
             {
                 "Item": "Rubber",
-                "Per-minute": 100.0
+                "Per-minute": 20.0
             }
         ],
         "Outputs": [
@@ -6712,11 +6712,11 @@
             },
             {
                 "Item": "Silica",
-                "Per-minute": 90.0
+                "Per-minute": 37.5
             },
             {
                 "Item": "Circuit Board",
-                "Per-minute": 90.0
+                "Per-minute": 3.0
             }
         ],
         "Outputs": [
@@ -6862,7 +6862,7 @@
             },
             {
                 "Item": "Wire",
-                "Per-minute": 10.0
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -6902,7 +6902,7 @@
             },
             {
                 "Item": "Steel Pipe",
-                "Per-minute": 2.0
+                "Per-minute": 10.0
             }
         ],
         "Outputs": [
@@ -6924,7 +6924,7 @@
             },
             {
                 "Item": "Wire",
-                "Per-minute": 18.75
+                "Per-minute": 37.5
             }
         ],
         "Outputs": [
@@ -6946,15 +6946,15 @@
             },
             {
                 "Item": "Electromagnetic Control Rod",
-                "Per-minute": 7.2
+                "Per-minute": 2.4
             },
             {
                 "Item": "Battery",
-                "Per-minute": 7.2
+                "Per-minute": 24.0
             },
             {
                 "Item": "Wire",
-                "Per-minute": 7.2
+                "Per-minute": 60.0
             }
         ],
         "Outputs": [
@@ -6976,7 +6976,7 @@
             },
             {
                 "Item": "Petroleum Coke",
-                "Per-minute": 45.0
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -6998,7 +6998,7 @@
             },
             {
                 "Item": "Petroleum Coke",
-                "Per-minute": 25.0
+                "Per-minute": 40.0
             }
         ],
         "Outputs": [
@@ -7020,15 +7020,15 @@
             },
             {
                 "Item": "Heavy Oil Residue",
-                "Per-minute": 15.0
+                "Per-minute": 30.0
             },
             {
                 "Item": "Sulfur",
-                "Per-minute": 15.0
+                "Per-minute": 22.5
             },
             {
                 "Item": "Petroleum Coke",
-                "Per-minute": 15.0
+                "Per-minute": 22.5
             }
         ],
         "Outputs": [
@@ -7050,7 +7050,7 @@
             },
             {
                 "Item": "Packaged Turbofuel",
-                "Per-minute": 600.0
+                "Per-minute": 40.0
             }
         ],
         "Outputs": [
@@ -7072,11 +7072,11 @@
             },
             {
                 "Item": "Radio Control Unit",
-                "Per-minute": 6.5625
+                "Per-minute": 8.4375
             },
             {
                 "Item": "Electromagnetic Control Rod",
-                "Per-minute": 6.5625
+                "Per-minute": 4.6875
             },
             {
                 "Item": "Rotor",
@@ -7102,7 +7102,7 @@
             },
             {
                 "Item": "Compacted Coal",
-                "Per-minute": 37.5
+                "Per-minute": 30.0
             }
         ],
         "Outputs": [
@@ -7124,15 +7124,15 @@
             },
             {
                 "Item": "Pressure Conversion Cube",
-                "Per-minute": 7.5
+                "Per-minute": 1.875
             },
             {
                 "Item": "Packaged Nitrogen Gas",
-                "Per-minute": 7.5
+                "Per-minute": 45.0
             },
             {
                 "Item": "Stator",
-                "Per-minute": 7.5
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -7154,7 +7154,7 @@
             },
             {
                 "Item": "Compacted Coal",
-                "Per-minute": 22.5
+                "Per-minute": 15.0
             }
         ],
         "Outputs": [
@@ -7176,15 +7176,15 @@
             },
             {
                 "Item": "Electromagnetic Control Rod",
-                "Per-minute": 20.0
+                "Per-minute": 2.0
             },
             {
                 "Item": "Crystal Oscillator",
-                "Per-minute": 20.0
+                "Per-minute": 0.6
             },
             {
                 "Item": "Rotor",
-                "Per-minute": 20.0
+                "Per-minute": 2.0
             }
         ],
         "Outputs": [
@@ -7206,7 +7206,7 @@
             },
             {
                 "Item": "Water",
-                "Per-minute": 120.0
+                "Per-minute": 100.0
             }
         ],
         "Outputs": [
@@ -7407,6 +7407,188 @@
         "Outputs": [
             {
                 "Item": "Nitrogen Gas",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "FICSMAS Gift",
+        "Alternate": false,
+        "FiCSMAS": true,
+        "Building": "FICSMAS Gift Tree",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "FICSMAS Gift",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Mycelia",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Mycelia",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Beryl Nut",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Beryl Nut",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Paleberry",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Paleberry",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Bacon Agaric",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Bacon Agaric",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Blue Power Slug",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Blue Power Slug",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Yellow Power Slug",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Yellow Power Slug",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Purple Power Slug",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Purple Power Slug",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Hog Remains",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Hog Remains",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Hatcher Remains",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Hatcher Remains",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Spitter Remains",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Spitter Remains",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Stinger Remains",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Stinger Remains",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Wood",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Wood",
+                "Per-minute": null
+            }
+        ]
+    },
+    {
+        "Name": "Leaves",
+        "Alternate": false,
+        "FiCSMAS": false,
+        "Building": "Pioneer",
+        "Ingredients": null,
+        "Outputs": [
+            {
+                "Item": "Leaves",
                 "Per-minute": null
             }
         ]

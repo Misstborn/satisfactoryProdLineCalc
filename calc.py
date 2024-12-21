@@ -1,4 +1,5 @@
 import json
+from copy import copy
 
 EXTRACTED_ITEMS = ('Iron Ore', 'Copper Ore', 'Caterium Ore', 'Limestone', 'Coal', 'Raw', 'Sulfur', 'Bauxite', 'Uranium'
                     , 'SAM', 'Water', 'Crude Oil', 'Nitrogen Gas', 'FICSMAS Gift', 'Mycelia', 'Beryl Nut', 'Paleberry',
@@ -17,10 +18,12 @@ class Recipe:
         self.alt = alt
         self.ficsmas = ficsmas
         self.ingredients = ingredients
+        self.outputs = outputs
         self.items = [item['Item'] for item in outputs]
         self.ipm = [item['Per-minute'] for item in outputs]
         self.clockspeed = 1
         self.is_base = True if self.ingredients is None else False  # If item is a "base" ingredient, aka cannot be crafted
+        # self.children = self.get_ingredients()
 
         # Add this instance to the list of all recipes
         Recipe.all_recipes.append(self)
@@ -36,21 +39,13 @@ class Recipe:
         pass
 
     # Currently unused
-    def recipes_for_inputs(self):
+    def get_ingredients(self):
         if not self.is_base:
-            _ingredient_recipes = []
-            for _ingredient in self.ingredients:
-                if any(extracted_item in _ingredient for extracted_item in EXTRACTED_ITEMS):
-                    continue
-
-                for _item in Recipe.all_recipes:
-                    if _ingredient['Item'] in _item and not _item.alt:
-                        _ingredient_recipes.append(_item)
-
-            return _ingredient_recipes
+            return [Item.all_items[Item.all_items.index(ingredient['Item'])] for ingredient in self.ingredients]
         else:
-            raise TypeError("Item is a base with no prior ingredients.")
+            return None
 
+# print('here')
 # Similar to recipe, new instances should not be created. Contains a list of every item along with each recipe that can
 # create that item
 class Item:
@@ -61,9 +56,35 @@ class Item:
         # Initialization
         self.name = name
         self.recipes = [recipe]
+        self.node_index = 1
 
         if add_to_list:
             self.__add_to_list()
+
+    def get_full_tree(self):
+        recipe_tree = {'Node0Children': [copy(self)]}
+        current_index = 0
+        node_number = 1
+
+        while len(recipe_tree) - current_index > 0:
+            for __item in recipe_tree[f'Node{current_index}Children']:
+                ingredients = __item.recipes[0].get_ingredients()
+                output_ingredients = []
+                if ingredients is not None:
+                    for ingredient in ingredients:
+                        node_number += 1
+                        ingredient_copy = copy(ingredient)
+                        ingredient_copy.node_index = node_number
+                        output_ingredients.append(ingredient_copy)
+
+                    recipe_tree[f'Node{__item.node_index}Children'] = output_ingredients
+
+                else:
+                    recipe_tree[f'Node{__item.node_index}Children'] = []
+
+            current_index += 1
+
+        return recipe_tree
 
     def __add_to_list(self):
         """Intended for internal use only."""
@@ -77,6 +98,29 @@ class Item:
             # If no matching item is found, add self to all_items
             Item.all_items.append(self)
 
+    def order_recipes(self):
+
+        actual_index = 0
+        for _ in range(len(self.recipes)):
+            __recipe = self.recipes[actual_index]
+            if __recipe.alt:
+                self.recipes.append(self.recipes.pop(actual_index))
+
+            elif __recipe.building == 'Converter' and __recipe.ingredients is not None and len(__recipe.ingredients) == 2:
+                self.recipes.append(self.recipes.pop(actual_index))
+
+            elif len(__recipe.items) == 2 and __recipe.items[1] == self.name:
+                self.recipes.append(self.recipes.pop(actual_index))
+
+            elif __recipe.building == 'Packager':
+                self.recipes.append(self.recipes.pop(actual_index))
+
+            elif __recipe.is_base:
+                self.recipes.insert(0, self.recipes.pop(actual_index))
+                actual_index += 1
+
+            else:
+                actual_index += 1
 
     def append(self, recipe):
         # Add a recipe to the list.
@@ -128,17 +172,22 @@ class Item:
 
 
 #problems: Compacted Coal, Encased Uranium Cell,
-"""with open('recipes.json', 'r') as file:
+
+with open('recipes.json', 'r') as file:
     for _recipe in json.load(file):
         new_recipe = Recipe(*_recipe.values())
-        for item in new_recipe.items:
-            Item(item, new_recipe)
+        for __item in new_recipe.items:
+            Item(__item, new_recipe)
 
-print(vars(Recipe.all_recipes[28]))
+for __item in Item.all_items:
+    __item.order_recipes()
+
+"""print(vars(Recipe.all_recipes[28]))
 print(len(Recipe.all_recipes))
 print(list(vars(i) for i in Recipe.all_recipes[28].recipes_for_inputs()))
 
 print(vars(Item.all_items[1]))
 print(len(Item.all_items))
-print(list(vars(i) for i in Item.all_items[1].recipes))
-"""
+print(list(vars(i) for i in Item.all_items[1].recipes))"""
+
+print(Item.all_items[0].get_full_tree())
