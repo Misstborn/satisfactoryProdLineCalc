@@ -173,6 +173,7 @@ class Item:
 
 #problems: Compacted Coal, Encased Uranium Cell,
 
+"""
 with open('recipes.json', 'r') as file:
     for _recipe in json.load(file):
         new_recipe = Recipe(*_recipe.values())
@@ -180,7 +181,7 @@ with open('recipes.json', 'r') as file:
             Item(__item, new_recipe)
 
 for __item in Item.all_items:
-    __item.order_recipes()
+    __item.order_recipes()"""
 
 """print(vars(Recipe.all_recipes[28]))
 print(len(Recipe.all_recipes))
@@ -190,4 +191,4 @@ print(vars(Item.all_items[1]))
 print(len(Item.all_items))
 print(list(vars(i) for i in Item.all_items[1].recipes))"""
 
-print(Item.all_items[0].get_full_tree())
+# print(Item.all_items[0].get_full_tree())

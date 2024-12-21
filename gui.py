@@ -18,8 +18,8 @@ with open('recipes.json', 'r') as file:
 for item in calc.Item.all_items:
     item.order_recipes()
 
-print(vars(calc.Recipe.all_recipes[0].get_full_tree()))
-print(calc.Item.all_items[0].recipes[0].get_ingredients())
+# print(vars(calc.Recipe.all_recipes[0].get_full_tree()))
+# print(calc.Item.all_items[0].recipes[0].get_ingredients())
 
 
 # A given Node represents one recipe, with a building, inputs, outputs, a clock speed, and the option to change the used
@@ -34,6 +34,7 @@ class Node(QGraphicsRectItem):
         self.setPos(x, y) # Set location
         self.setBrush(QBrush(QColor(100, 150, 250)))  # Fill color
         self.setPen(QPen(Qt.black, 2))  # Border color
+        self.scene = QGraphicsScene()
 
         self.input_labels = [] # Labels for recipe components
         self.output_labels = [] # Labels for recipe products
@@ -63,7 +64,8 @@ class Node(QGraphicsRectItem):
         # Create label with specific font and color.
         item_label = QGraphicsTextItem(f'{__rate} {__item.name}/m', self)
         item_label.setDefaultTextColor(Qt.white)
-        item_label.setFont(QFont('Arial', 7))
+        item_label.setFont(QFont('Open Sans', 7))
+
 
         # If item is a component.
         if _is_input:
@@ -106,9 +108,10 @@ class Node(QGraphicsRectItem):
 
         print(vars(self.current_recipe))
         # Populate labels.
-        for __ingredient in self.current_recipe.ingredients:
-            _item_object = calc.Item.all_items[calc.Item.all_items.index(__ingredient['Item'])]
-            self.add_item(True, _item_object, __ingredient['Per-minute'])
+        if self.current_recipe.ingredients is not None:
+            for __ingredient in self.current_recipe.ingredients:
+                _item_object = calc.Item.all_items[calc.Item.all_items.index(__ingredient['Item'])]
+                self.add_item(True, _item_object, __ingredient['Per-minute'])
 
         for __output in self.current_recipe.outputs:
             _item_object = calc.Item.all_items[calc.Item.all_items.index(__output['Item'])]
@@ -129,18 +132,18 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.flowchart)
 
         # Create nodes
-        node1 = Node(0, 200, calc.Item.all_items[1])
-        node2 = Node(300, 200, calc.Item.all_items[1])
-        node3 = Node(600, 100, calc.Item.all_items[2])
+        # node1 = Node(0, 200, calc.Item.all_items[0])
+        # node2 = Node(300, 200, calc.Item.all_items[1])
+        # node3 = Node(600, 100, calc.Item.all_items[2])
 
         # Add nodes to the scene
-        self.scene.addItem(node1)
-        self.scene.addItem(node2)
-        self.scene.addItem(node3)
+        # self.scene.addItem(node1)
+        # self.scene.addItem(node2)
+        # self.scene.addItem(node3)
 
         # Connect nodes with lines
-        self.flowchart.add_path_connection(node1.center_right_wall, node2.center_left_wall)
-        self.flowchart.add_path_connection(node2.center_right_wall, node3.center_left_wall)
+        # self.flowchart.add_path_connection(node1.center_right_wall, node2.center_left_wall)
+        # self.flowchart.add_path_connection(node2.center_right_wall, node3.center_left_wall)
 
 
 class FlowchartView(QGraphicsView):
@@ -150,7 +153,7 @@ class FlowchartView(QGraphicsView):
         self.setRenderHint(QPainter.Antialiasing)
         self.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
-        self.scene.setSceneRect(-250, -250, 2000, 2000)
+        self.scene.setSceneRect(-250, -250, 50000, 50000)
 
         # Translation variables
         self.scale_factor = 1.0
@@ -158,6 +161,17 @@ class FlowchartView(QGraphicsView):
         self.min_zoom = 0.2
         self._is_panning = False
         self._pan_start = QPointF()
+
+        self.create_recipe_tree(calc.Item.all_items[0])
+
+    def create_recipe_tree(self, __item):
+        recipe_tree = __item.get_full_tree()
+        current_node_num = 0
+        for i in range(len(recipe_tree)):
+            for __item in recipe_tree[f'Node{i}Children']:
+                _node = Node(current_node_num * 300, current_node_num * 150, __item)
+                self.scene.addItem(_node)
+                current_node_num += 1
 
 
     def add_path_connection(self, _start, _end):
