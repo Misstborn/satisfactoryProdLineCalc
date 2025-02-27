@@ -1,10 +1,13 @@
 import json
 from copy import copy
 
+from test import max_depth
+
 EXTRACTED_ITEMS = ('Iron Ore', 'Copper Ore', 'Caterium Ore', 'Limestone', 'Coal', 'Raw', 'Sulfur', 'Bauxite', 'Uranium'
                     , 'SAM', 'Water', 'Crude Oil', 'Nitrogen Gas', 'FICSMAS Gift', 'Mycelia', 'Beryl Nut', 'Paleberry',
                     'Bacon Agaric', 'Blue Power Slug', 'Yellow Power Slug', 'Purple Power Slug', 'Hog Remains',
                     'Hatcher Remains', 'Spitter Remains', 'Stinger Remains', 'Wood', 'Leaves')
+NODE_X_OFFSET = 50
 
 # Recipe class, only used to define an object with certain attributes. New instances should not be created after the
 # initial list of all recipes.
@@ -56,35 +59,11 @@ class Item:
         # Initialization
         self.name = name
         self.recipes = [recipe]
-        self.node_index = 1
+        # self.node_index = 1
+        # self.depth = 0
 
         if add_to_list:
             self.__add_to_list()
-
-    def get_full_tree(self):
-        recipe_tree = {'Node0Children': [copy(self)]}
-        current_index = 0
-        node_number = 1
-
-        while len(recipe_tree) - current_index > 0:
-            for __item in recipe_tree[f'Node{current_index}Children']:
-                ingredients = __item.recipes[0].get_ingredients()
-                output_ingredients = []
-                if ingredients is not None:
-                    for ingredient in ingredients:
-                        node_number += 1
-                        ingredient_copy = copy(ingredient)
-                        ingredient_copy.node_index = node_number
-                        output_ingredients.append(ingredient_copy)
-
-                    recipe_tree[f'Node{__item.node_index}Children'] = output_ingredients
-
-                else:
-                    recipe_tree[f'Node{__item.node_index}Children'] = []
-
-            current_index += 1
-
-        return recipe_tree
 
     def __add_to_list(self):
         """Intended for internal use only."""
@@ -171,7 +150,66 @@ class Item:
         return self.name == other
 
 
-#problems: Compacted Coal, Encased Uranium Cell,
+class RecipeTree:
+    def __init__(self, item):
+        self.tree = self.get_tree(item)
+        self.max_depth = 0
+        self.layout = []
+
+    def get_tree(self, head_item):
+        # depth of node, current index being evaluated, and unique node number
+        curr_index = 0
+        node_number = 1
+        tree = {"Node0Children": [TreeNode(copy(head_item), 0, node_number)]}
+        while len(tree) >= curr_index:
+            for __node in tree[f'Node{curr_index}Children']:
+                tree[f'Node{curr_index}Children'] = [TreeNode(copy(ingredient), __node.depth + 1,
+                                                              node_number := node_number + 1, parent=__node)
+                                                     for ingredient in __node.get_ingredients(0)]
+                curr_index += 1
+                self.max_depth = max(self.max_depth, __node.depth + 1)
+
+        return tree
+
+
+    def get_layout(self, node_width, node_height):
+        node_size = (node_width, node_height)
+        # Create list of y offsets.
+        node_y_offsets = [0 for _ in range(self.max_depth)]
+        curr_children = None
+        curr_depth = self.max_depth
+        depth_index = self.max_depth - curr_depth
+
+        for i in range(len(self.tree)):
+            if self.tree[f'Node{i}Children'][0].depth == self.max_depth:
+                curr_children = self.tree.pop(f'Node{i}Children')
+                self.layout.append([])
+                break
+
+
+        for child in curr_children:
+            setattr(child, 'size', node_size)
+            setattr(child, 'pos', (depth_index * (node_width + NODE_X_OFFSET), node_y_offsets[depth_index]))
+            self.layout[0].append(child)
+
+        return
+
+
+class TreeNode:
+    def __init__(self, item, depth, index, pos=(0,0), size=(0,0), parent=None):
+        self.item = item
+        self.depth = depth
+        self.index = index
+        self.parent = parent
+        self.pos = pos
+        self.size = size
+
+    def get_ingredients(self, recipe_num):
+        return self.item.recipes[recipe_num].get_ingredients()
+
+    def get_recipes(self):
+        return self.item.recipes
+
 
 """
 with open('recipes.json', 'r') as file:

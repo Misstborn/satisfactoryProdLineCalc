@@ -1,10 +1,10 @@
 import sys
 
-from PySide2.QtWidgets import (QApplication, QMainWindow, QGraphicsView, QGraphicsScene, QGraphicsEllipseItem,
+from PySide6.QtWidgets import (QApplication, QMainWindow, QGraphicsView, QGraphicsScene, QGraphicsEllipseItem,
                                QGraphicsTextItem, QGraphicsLineItem, QGraphicsRectItem, QGraphicsPathItem, QComboBox,
                                QGraphicsProxyWidget)
-from PySide2.QtGui import QPen, QBrush, QColor, QPainterPath, QFont, QPainter
-from PySide2.QtCore import Qt, QRectF, QPointF, QLineF
+from PySide6.QtGui import QPen, QBrush, QColor, QPainterPath, QFont, QPainter
+from PySide6.QtCore import Qt, QRectF, QPointF, QLineF
 import calc
 import json
 
@@ -25,11 +25,11 @@ for item in calc.Item.all_items:
 # A given Node represents one recipe, with a building, inputs, outputs, a clock speed, and the option to change the used
 # recipe.
 class Node(QGraphicsRectItem):
-    def __init__(self, x, y, _item, width=275, height=125):
+    def __init__(self, x, y, _tree_node, width=275, height=125):
         # Initialization
         super().__init__(0, 0, width, height)  # Create a rectangular node
-        self.item = _item
-        self.current_recipe = self.item.recipes[0]
+        self.tree_node = _tree_node
+        self.current_recipe = self.tree_node.get_recipes[0]
         # print(self.item)
         self.setPos(x, y) # Set location
         self.setBrush(QBrush(QColor(100, 150, 250)))  # Fill color
@@ -48,7 +48,7 @@ class Node(QGraphicsRectItem):
         self.recipe_combo = QComboBox()  # Combo (multiple choice) box to select the used recipe.
 
         # For each recipe used to make the item, add to combo box
-        for __recipe in self.item:
+        for __recipe in self.tree_node.get_recipes():
             self.recipe_combo.addItem(__recipe.name)
         self.recipe_combo.currentTextChanged.connect(self.change_recipe)  # Connect the changing of the selected recipe to the change_recipe method.
         self.change_recipe(self.current_recipe.name)  # Run change_recipe to show the labels for the initial recipe.
@@ -102,7 +102,7 @@ class Node(QGraphicsRectItem):
         self.output_labels = []
 
         # Find the correct Recipe object based on the recipe name.
-        for recipe in self.item:
+        for recipe in self.tree_node.get_recipes():
             if recipe.name == _recipe_name:
                 self.current_recipe = recipe
 
@@ -165,13 +165,16 @@ class FlowchartView(QGraphicsView):
         self.create_recipe_tree(calc.Item.all_items[0])
 
     def create_recipe_tree(self, __item):
-        recipe_tree = __item.get_full_tree()
+        recipe_tree = calc.RecipeTree(__item)
         current_node_num = 0
+        max_depth = recipe_tree.max_depth
+
         for i in range(len(recipe_tree)):
             for __item in recipe_tree[f'Node{i}Children']:
-                _node = Node(current_node_num * 300, current_node_num * 150, __item)
+                _node = Node((max_depth - __item.depth) * 300, current_node_num * 150, __item)
                 self.scene.addItem(_node)
                 current_node_num += 1
+
 
 
     def add_path_connection(self, _start, _end):
@@ -242,7 +245,7 @@ class FlowchartView(QGraphicsView):
 
     def mousePressEvent(self, event):
         """Start panning when the middle or left mouse button is pressed."""
-        if event.button() == Qt.MiddleButton:
+        if event.button() == Qt.MiddleButton or (event.button() == Qt.LeftButton and event.modifiers() & Qt.ShiftModifier):
             self._is_panning = True
             self.viewport().setCursor(Qt.ClosedHandCursor)  # Change cursor to indicate panning.
             self._pan_start = event.pos()  # Record the starting position.
@@ -272,7 +275,7 @@ class FlowchartView(QGraphicsView):
 
     def mouseReleaseEvent(self, event):
         """Stop panning when the mouse button is released."""
-        if event.button() == Qt.MiddleButton:
+        if event.button() == Qt.MiddleButton or event.button() == Qt.LeftButton:
             self._is_panning = False
             self.viewport().setCursor(Qt.ArrowCursor)  # Restore the default cursor
 
